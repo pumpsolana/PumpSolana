@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-top {
+  background-image: url(./assets/bg-top.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-click {
+  background-image: url(./assets/click.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.bg-click-1 {
+  background-image: url(./assets/wave.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-bottom {
+  background-image: url(./assets/why-bottom.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 210vh;
+}
+
+.bg-roadmap {
+  background-image: url(./assets/bg_roadmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-bubbles {
+  background-image: url(./assets/bubbles.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 210vh;
+}
+
+.bg-step-1 {
+  background-image: url(./assets/step1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+}
+
+.bg-token {
+  background-image: url(./assets/bg-tokenomics.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 138vh;
+}
+
+.bg-faq {
+  background-image: url(./assets/bg-faq.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.text-outline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px black;
+}
+
+.shadow-black {
+  text-shadow: 3px 3px 3px black;
+}
+
+.shadow-white {
+  text-shadow: 3px 3px 3px white;
+}
+
+.text-xxl {
+  font-size: 1.4rem;
+}
+
+.shadow-gold {
+  text-shadow: none;
+}
+
+.shadow-gold:hover {
+  text-shadow: 3px 3px 3px #FFA409;
+}
+
+.rotate-30 {
+  rotate: 30deg;
+}
+
+.-rotate-30 {
+  rotate: -20deg;
+}
+
+.shadow-blue {
+  box-shadow: 7px 6px 0px 2px #2894FF;
+}
+
+.rounded-tl-4xl {
+  border-top-left-radius: 15rem;
+  border-bottom-right-radius: 15rem;
+}
+
+.text-10xl {
+  font-size: 11.3rem;
+  line-height: 1;
+}
+
+.text-shine {
+  text-shadow: 3px 3px 3px #FFA409;
+  animation: flicker 1s ease-in-out infinite alternate;
+}
+
+@keyframes flicker {
+
+  from {
+    text-shadow:
+      3px 3px 3px #FFA409,
+  }
+
+  to {
+    text-shadow: none;
+  }
+}
+
+.float {
+  transform: translatey(0px);
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 25px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .text-10xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .rotate-30 {
+    rotate: none;
+  }
+
+  .-rotate-30 {
+    rotate: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-bottom {
+    background-image: url(./assets/why-bottom.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .bg-token {
+    background-image: none;
+    background: #0778E6;
+    height: auto;
+  }
+
+
+  .text-10xl {
+    font-size: 4rem;
+    line-height: 1;
+  }
+}
+
+/* sidebar styling */
+
+
+.sidebar {
+  width: 280px;
+  min-height: 100vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 50;
+  transition: 0.5s;
+  background-color: #2894FF;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sd-body {
+  padding: 15px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.sd-body ul li .sd-link {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 16px;
+  color: #2894FF;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Handle slider dots*/
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFC700 !important;
+}
