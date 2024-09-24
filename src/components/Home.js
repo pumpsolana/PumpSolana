@@ -3,7 +3,6 @@ import Footer from './Footer'
 import Menu from './Menu'
 import protein_couch from '../assets/protein_couch.png';
 import protein from '../assets/protein.png';
-import wallet from '../assets/wallet.png';
 import mark from '../assets/mark.png';
 import join from '../assets/join.png';
 import top from '../assets/top.gif';
@@ -132,7 +131,7 @@ export default function Home() {
                             </div>
 
                             <div className='flex items-center justify-center gap-6 mt-5 '>
-                                <a href='https://t.me/ProteinPortal'>
+                                <a href='https://x.com/ProteinCoinSol'>
                                     <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 w-36'>
                                         Twitter
                                     </button>
@@ -165,8 +164,8 @@ export default function Home() {
                     <div className="lg:pb-20 py-6">
 
                         <div className='flex justify-between items-end'>
-                            <img src={side_1} className='md:w-56 w-28'></img>
-                            <img src={side_2} className='md:-mt-24 -mt-12 md:w-48 w-24 float'></img>
+                            <img src={side_1} alt='side' className='md:w-56 w-28'></img>
+                            <img src={side_2} alt='side' className='md:-mt-24 -mt-12 md:w-48 w-24 float'></img>
                         </div>
 
                         <h2 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black'>
@@ -175,7 +174,7 @@ export default function Home() {
                         </h2>
 
                         <div className='mt-12'>
-                            <iframe src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-4/12 md:w-6/12 w-full'></iframe>
+                            <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-4/12 md:w-6/12 w-full'></iframe>
                         </div>
 
                     </div>
@@ -521,11 +520,11 @@ export default function Home() {
                                     <p className='text-yellow-100'>(ULTIMATE DOMINATION)</p>
                                 </div>
 
-                                <div data-aos="slide-up" className='border-8 border-yellow-50 rounded-3xl p-6 bg-black-100'>
+                                <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
 
                                     <img src={lock} alt='lock' className='flex mx-auto mb-5 w-24'></img>
 
-                                    <h3 className='md:text-4xl text-3xl font-wedges text-center leading-loose text-yellow-50 shadow-black'>
+                                    <h3 className='md:text-4xl text-3xl font-wedges text-center leading-loose text-yellow-100 shadow-black'>
                                         WILL BE UNLOCKED<br></br>
                                         AT 50M CAP
                                     </h3>
@@ -669,7 +668,7 @@ export default function Home() {
                                 <button className='shadow-gold hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                     BUY $protein
                                 </button>
-                                <a href='https://t.me/ProteinPortal'>
+                                <a href='https://x.com/ProteinCoinSol'>
                                     <button className='shadow-gold hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                         X | TWITTER
                                     </button>

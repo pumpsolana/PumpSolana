@@ -19,7 +19,7 @@ export default function Menu() {
       <div className="px-5 bg-white-100 py-1 hidden font-lilita lg:flex justify-between items-center shadow-blue border-4 border-blue-50 rounded-2xl mx-auto">
 
         <div>
-          <img src={logo} alt='logo' className='w-9/12'></img>
+          <img src={logo} alt='logo' className='w-20'></img>
         </div>
 
         <nav>

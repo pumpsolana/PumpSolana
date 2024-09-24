@@ -13,8 +13,8 @@ export default function Footer() {
     <div className="py-5">
 
       <div className='-mt-2'>
-        <img src={footer1} className='absolute left-0'></img>
-        <img src={footer2} className='absolute right-0'></img>
+        <img src={footer1} alt='footer' className='absolute left-0'></img>
+        <img src={footer2} alt='footer' className='absolute right-0'></img>
       </div>
 
       <footer className='container mx-auto lg:px-20 px-5 relative z-20 pt-6'>
