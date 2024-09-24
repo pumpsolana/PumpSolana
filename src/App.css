@@ -90,7 +90,7 @@ html {
 }
 
 .shadow-gold:hover {
-  text-shadow: 3px 3px 3px #FFA409;
+  text-shadow: 3px 3px 12px #FFA409;
 }
 
 .rotate-30 {
@@ -116,7 +116,7 @@ html {
 }
 
 .text-shine {
-  text-shadow: 3px 3px 3px #FFA409;
+  text-shadow: 5px 3px 8px #FFA409;
   animation: flicker 1s ease-in-out infinite alternate;
 }
 

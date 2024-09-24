@@ -14,7 +14,7 @@ import why5 from '../assets/why5.png';
 import why6 from '../assets/why6.png';
 import wave from '../assets/wave.svg';
 import wave1 from '../assets/wave1.png';
-import lock from '../assets/lock.png';
+import lock from '../assets/lock.svg';
 import dumbell1 from '../assets/dumbell1.png';
 import dumbell2 from '../assets/dumbell2.png';
 import side_1 from '../assets/side_1.png';
