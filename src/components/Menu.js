@@ -33,7 +33,7 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <button className='bg-blue-200 border-4 border-blue-50 py-2 px-5 text-white-100 rounded-2xl hover:bg-blue-50 hover:border-blue-200 duration-150 text-xxl hover:shadow-md hover:shadow-yellow-100'>
+        <button className='bg-blue-200 border-4 border-blue-50 py-2 px-5 text-white-100 rounded-2xl hover:bg-blue-50 hover:border-blue-200 duration-150 text-xxl shadow-btn'>
           BUY $PROTEIN
         </button>
 

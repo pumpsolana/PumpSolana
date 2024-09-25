@@ -92,6 +92,22 @@ html {
   text-shadow: 3px 3px 12px #FFA409;
 }
 
+.shadow-btn {
+  box-shadow: none;
+}
+
+.shadow-btn:hover {
+  box-shadow: 1px 1px 10px #FFA409;
+}
+
+.shadow-btn1 {
+  box-shadow: none;
+}
+
+.shadow-btn1:hover {
+  box-shadow: 1px 1px 10px #ffff00;
+}
+
 .rotate-30 {
   rotate: 30deg;
 }

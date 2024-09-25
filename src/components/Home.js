@@ -133,13 +133,13 @@ export default function Home() {
 
                             <div className='flex items-center justify-center gap-6 mt-5 '>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 w-36'>
+                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-36'>
                                         Twitter
                                     </button>
                                 </a>
 
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 w-36'>
+                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-36'>
                                         Telegram
                                     </button>
                                 </a>
@@ -206,7 +206,7 @@ export default function Home() {
                                 </p>
 
                                 <div className="">
-                                    <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-3 px-7 hover:bg-blue-50 hover:shadow-md hover:shadow-yellow-100'>
+                                    <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-3 px-7 hover:bg-blue-50 shadow-btn'>
                                         <img src={copy} alt='copy' className=''></img>
                                     </button>
 
@@ -677,15 +677,15 @@ export default function Home() {
 
                             <div className='flex flex-wrap items-center gap-6 font-wedges'>
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                     BUY $protein
                                 </button>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                         X | TWITTER
                                     </button>
                                 </a>
