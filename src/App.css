@@ -27,7 +27,7 @@ html {
   background-image: url(./assets/why-bottom.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 210vh;
+  background-size: 100vw;
 }
 
 .bg-roadmap {
@@ -40,8 +40,6 @@ html {
   background-image: url(./assets/bubbles.png);
   background-position: top;
   background-repeat: no-repeat;
-
-  /* background-size: 210vh; */
 }
 
 .bg-step-1 {
@@ -52,11 +50,10 @@ html {
 }
 
 .bg-token {
-  background-image: url(./assets/bg-tokenomics.png);
+  background-image: url(./assets/bg-token.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 138vh;
+  background-size: 100vw;
 }
 
 .bg-faq {

@@ -14,24 +14,23 @@ import why5 from '../assets/why5.png';
 import why6 from '../assets/why6.png';
 import wave from '../assets/wave.svg';
 import wave1 from '../assets/wave1.png';
-import lock from '../assets/lock.svg';
+import lock from '../assets/lock.png';
 import dumbell1 from '../assets/dumbell1.png';
 import dumbell2 from '../assets/dumbell2.png';
 import side_1 from '../assets/side_1.png';
 import side_2 from '../assets/side_2.png';
-import join_right from '../assets/join_right.png';
-import join1 from '../assets/join1.png';
-import join2 from '../assets/join2.png';
-import join3 from '../assets/join3.png';
-import join4 from '../assets/join4.png';
-import join5 from '../assets/join5.png';
+import join6 from '../assets/join6.png';
 import chart from '../assets/chart.png';
 import cloud1 from '../assets/cloud1.png';
 import cloud2 from '../assets/cloud2.png';
 import tick from '../assets/tick.png';
 import copy from '../assets/copy.png';
 import bubbles from '../assets/bubbles.png';
-
+import dumbell3 from '../assets/dumbell3.png';
+import token1 from '../assets/token1.png';
+import gym from '../assets/gym.png';
+import window from '../assets/window.png';
+import clock from '../assets/clock.png';
 import video from '../assets/video.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
@@ -160,7 +159,7 @@ export default function Home() {
 
             <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full md:-translate-y-32 -translate-y-8' />
 
-            <div className="lg:px-20 px-5 bg-blue-25 bg-click relative z-20">
+            <div className="lg:px-20 px-5 bg-blue-25 relative z-20">
                 <div className='container mx-auto'>
 
                     <div className="lg:pb-20 py-6">
@@ -397,14 +396,14 @@ export default function Home() {
 
             </div>
 
-        
+
 
             {/* roadmap section */}
 
             <img src={bubbles} className='w-full'></img>
 
             <div className="">
-                <div id='roadmap' className="bg-roadmap lg:-mt-20 md:-mt-12 -mt-8">
+                <div id='roadmap' className="bg-roadmap lg:-mt-32 md:-mt-12 -mt-8">
                     <div className='lg:px-20 px-5 container mx-auto lg:pt-20 pt-6'>
 
                         <div className='lg:flex items-start justify-between lg:space-y-0 space-y-8'>
@@ -597,13 +596,20 @@ export default function Home() {
             <img src={cloud2} alt="Logo" className='right-0 absolute md:-mt-52 -mt-20 lg:block hidden' />
 
 
-            <div id='tokenomics' className="bg-token">
-                <div className='lg:px-20 px-5 lg:py-12 py-20 container mx-auto'>
-                    <div className='lg:flex justify-between'>
-                        <div className=''>
+            <div id='tokenomics' className="bg-token -mt-4">
+                <div className='lg:pr-20 px-5 lg:py-0 py-20 container mx-auto'>
+                    <div className='lg:flex justify-between items-start lg:translate-y-44'>
+
+                        <div className='lg:w-1/2 lg:flex hidden justify-between items-start'>
+                            <div className=''>
+                                <img src={window} alt='' className='w-full'></img>
+                            </div>
+                            <div className=''>
+                                <img src={clock} alt='' className='w-40'></img>
+                            </div>
                         </div>
 
-                        <div className='lg:w-1/2 text-center lg:mt-28'>
+                        <div className='lg:w-1/2 text-center'>
                             <h3 className='md:text-7xl text-4xl font-wedges text-yellow-100 shadow-black'>
                                 PROTEINOMICS
                             </h3>
@@ -638,6 +644,18 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    <div className='lg:flex hidden justify-between gap-x-12 items-end -mt-20 relative z-20'>
+                        <div className='w-6/12'>
+                            <img src={token1} alt='' className=''></img>
+                        </div>
+                        <div className='w-3/12 flex flex-col mx-auto justify-center items-center'>
+                            <img src={dumbell3} alt=''></img>
+                            <img src={dumbell1} alt='' className='w-28'></img>
+                        </div>
+                        <div className='w-3/12'>
+                            <img src={gym} alt='' className='w-full'></img>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -647,7 +665,7 @@ export default function Home() {
             {/* join protein section */}
 
             <div id='join' className="">
-                <div className='lg:px-20 px-5 lg:pt-44 pt-20 lg:pb-20 pb-12 container mx-auto'>
+                <div className='lg:px-20 px-5 lg:pt-52 pt-20 lg:pb-20 pb-12 container mx-auto'>
 
                     <div className='lg:flex items-start justify-center'>
 
@@ -681,11 +699,11 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <img src={join} alt='' className=''></img>
+                            <img src={join} alt='' className='relative z-20'></img>
                         </div>
                     </div>
 
-                    <img src={join_right} alt='' className='absolute right-0 z-30 -mt-48 lg:block hidden'></img>
+                    {/* <img src={join_right} alt='' className='absolute right-0 z-30 -mt-48 lg:block hidden'></img>
 
                     <div className='lg:flex items-center gap-0 justify-center py-44 hidden'>
                         <img src={join1} alt='' className='absolute left-0 z-20'></img>
@@ -693,10 +711,14 @@ export default function Home() {
                         <img src={join3} alt='' className='absolute left-1/3 mt-64'></img>
                         <img src={join4} alt='' className='absolute right-0 mr-52 mt-44 z-40'></img>
                         <img src={join5} alt='' className='absolute right-0'></img>
+                    </div> */}
+
+                    <div className='lg:flex mx-auto -mt-12 hidden'>
+                        <img src={join6} alt='' className='w-full'></img>
                     </div>
 
                     <div>
-                        <img src={video} alt='' className='flex mx-auto md:mt-56 mt-8 lg:w-8/12'></img>
+                        <img src={video} alt='' className='flex mx-auto md:mt-12 mt-8 lg:w-8/12'></img>
                     </div>
 
                 </div>
