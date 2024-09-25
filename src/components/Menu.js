@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png';
+import logo from '../assets/logo1.png';
 
 
 
@@ -19,7 +19,9 @@ export default function Menu() {
       <div className="px-5 bg-white-100 py-1 hidden font-lilita lg:flex justify-between items-center shadow-blue border-4 border-blue-50 rounded-2xl mx-auto">
 
         <div>
-          <img src={logo} alt='logo' className='w-20'></img>
+          <a href='/'>
+            <img src={logo} alt='logo' className='w-20'></img>
+          </a>
         </div>
 
         <nav>
@@ -31,19 +33,28 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <button className='shadow-gold bg-blue-200 border-4 border-blue-50 py-2 px-5 text-white-100 rounded-2xl hover:bg-blue-50 hover:border-blue-200 duration-150 text-xxl'>
+        <button className='bg-blue-200 border-4 border-blue-50 py-2 px-5 text-white-100 rounded-2xl hover:bg-blue-50 hover:border-blue-200 duration-150 text-xxl hover:shadow-md hover:shadow-yellow-100'>
           BUY $PROTEIN
         </button>
 
       </div>
 
-      <div className="text-3xl text-center pb-8 lg:hidden block" onClick={ToggleSidebar} >
-        <i className="fa fa-bars"></i>
+      <div className="lg:hidden flex items-center justify-between pb-6" onClick={ToggleSidebar} >
+        <a href='/'>
+          <img src={logo} alt='logo' className='w-24'></img>
+        </a>
+
+        <i className="fa fa-bars text-3xl"></i>
       </div>
 
       <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
         <div className='p-5'>
-          <div className="text-2xl text-right text-white-100" onClick={ToggleSidebar}><i className="fa fa-times"></i></div>
+          <div className="lg:hidden flex items-center justify-between pb-6" onClick={ToggleSidebar}>
+            <a href='/'>
+              <img src={logo} alt='logo' className='w-20'></img>
+            </a
+            >
+            <i className="fa fa-times text-3xl text-white-100"></i></div>
 
           <div className="sd-body mt-20 font-fredoka">
             <ul>

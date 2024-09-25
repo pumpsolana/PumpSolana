@@ -30,6 +30,8 @@ import cloud1 from '../assets/cloud1.png';
 import cloud2 from '../assets/cloud2.png';
 import tick from '../assets/tick.png';
 import copy from '../assets/copy.png';
+import bubbles from '../assets/bubbles.png';
+
 import video from '../assets/video.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
@@ -395,201 +397,197 @@ export default function Home() {
 
             </div>
 
-            {/* */}
-
-            <div className="-mt-1 bg-bubbles">
-
-                <div className="py-5 lg:px-20 px-5 container mx-auto">
-
-                    <div className='lg:flex items-start justify-between lg:space-y-0 space-y-8'>
-
-                        <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-12 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
-                                Train like a Whale invest <br></br>
-                                like one too with $protein
-                            </button>
-
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12 lg:ml-32'>
-                                $protein for Crypto Gains
-                            </button>
-
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-8 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
-                                MOON YOUR MUSCLES
-                            </button>
-                        </div>
-
-                        <div data-aos="fade-up" className='lg:w-6/12'>
-                            <img src={protein_couch} alt="Logo" className='flex mx-auto' />
-                        </div>
-
-                        <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight rotate-30 lg:-translate-x-12'>
-                                HODL your $protein for massive<br></br>
-                                crypt gains
-                            </button>
-
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-6'>
-                                Lifting $protein to the Moon
-                            </button>
-
-                            <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12'>
-                                Bear the weight, enjoy the gains
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+        
 
             {/* roadmap section */}
 
-            <div id='roadmap' className="bg-roadmap -mt-20">
-                <div className='lg:px-20 px-5 container mx-auto'>
+            <img src={bubbles} className='w-full'></img>
 
-                    <div data-aos="zoom-in" className='text-center font-wedges text-white-100 pt-32 shadow-black'>
-                        <h3 className='text-10xl'>
-                            <span className='text-yellow-100'>$</span>protein
-                        </h3>
-                        <h3 className='text-10xl'>
-                            Roadmap
-                        </h3>
-                    </div>
+            <div className="">
+                <div id='roadmap' className="bg-roadmap lg:-mt-20 md:-mt-12 -mt-8">
+                    <div className='lg:px-20 px-5 container mx-auto lg:pt-20 pt-6'>
 
-                    <div className="lg:flex block justify-center items-start gap-x-12 pt-32 pb-20 md:space-y-0 space-y-8">
+                        <div className='lg:flex items-start justify-between lg:space-y-0 space-y-8'>
 
-                        <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
+                            <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-12 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
+                                    Train like a Whale invest <br></br>
+                                    like one too with $protein
+                                </button>
 
-                            <div className='text-white-100 space-y-8'>
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12 lg:ml-32'>
+                                    $protein for Crypto Gains
+                                </button>
 
-                                <div className='md:text-4xl text-3xl font-wedges text-center space-y-4 shadow-black'>
-                                    <h3 className=''>
-                                        FOUNDATION PHASE
-                                    </h3>
-                                    <p className='text-yellow-100'>(PRE-LAUNCH)</p>
-                                </div>
-
-                                <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
-
-                                    <ul className='list-disc pl-4'>
-                                        <li>Presale: Launch $PROTEIN token with
-                                            heavy presale limits (100 sol per wallet)</li>
-                                        <li>List $PROTEIN on DEXes</li>
-                                        <li>Huge Global Marketing Campaign</li>
-                                        <li>CMC & CoinGecko Listing</li>
-                                        <li>Onboarding KOLs (Key Opinion Leaders):
-                                            Collaborate with influential figures in the
-                                            fitness and crypto spaces.</li>
-                                        <li>Audit by SolidProof</li>
-                                    </ul>
-                                </div>
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-8 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
+                                    MOON YOUR MUSCLES
+                                </button>
                             </div>
 
-                            <div className='text-white-100 space-y-8'>
-                                <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
-                                    <h3 className=''>
-                                        BULKING PHASE
-                                    </h3>
-                                    <p className='text-yellow-100 leading-snug'>
-                                        (GROWTH AND<br></br>
-                                        DEVELOPMENT)
-                                    </p>
-                                </div>
-
-                                <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
-
-                                    <ul className='list-disc pl-4'>
-                                        <li>CEX Listings: List on mid-tier centralized exchanges to increase accessibility and
-                                            liquidity.</li>
-                                        <li>$PROTEIN Mini Game: Engaging game
-                                            that rewards players with $PROTEIN
-                                            tokens.</li>
-                                        <li>Huge Global Marketing Campaign</li>
-                                        <li>CMC & CoinGecko Listing</li>
-                                        <li>NFT Collection</li>
-                                    </ul>
-                                </div>
+                            <div data-aos="fade-up" className='lg:w-6/12'>
+                                <img src={protein_couch} alt="Logo" className='flex mx-auto' />
                             </div>
 
-                            <div className='text-white-100 space-y-8'>
+                            <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight rotate-30 lg:-translate-x-12'>
+                                    HODL your $protein for massive<br></br>
+                                    crypt gains
+                                </button>
 
-                                <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
-                                    <h3 className=''>
-                                        MR. OLYMPIA PHASE
-                                    </h3>
-                                    <p className='text-yellow-100'>(ULTIMATE DOMINATION)</p>
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-6'>
+                                    Lifting $protein to the Moon
+                                </button>
+
+                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12'>
+                                    Bear the weight, enjoy the gains
+                                </button>
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 shadow-black'>
+                            <h3 className='text-10xl'>
+                                <span className='text-yellow-100'>$</span>protein
+                            </h3>
+                            <h3 className='text-10xl'>
+                                Roadmap
+                            </h3>
+                        </div>
+
+                        <div className="lg:flex block justify-center items-start gap-x-12 lg:pt-32 pt-12 pb-20 md:space-y-0 space-y-8">
+
+                            <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
+
+                                <div className='text-white-100 space-y-8'>
+
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-4 shadow-black'>
+                                        <h3 className=''>
+                                            FOUNDATION PHASE
+                                        </h3>
+                                        <p className='text-yellow-100'>(PRE-LAUNCH)</p>
+                                    </div>
+
+                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
+
+                                        <ul className='list-disc pl-4'>
+                                            <li>Presale: Launch $PROTEIN token with
+                                                heavy presale limits (100 sol per wallet)</li>
+                                            <li>List $PROTEIN on DEXes</li>
+                                            <li>Huge Global Marketing Campaign</li>
+                                            <li>CMC & CoinGecko Listing</li>
+                                            <li>Onboarding KOLs (Key Opinion Leaders):
+                                                Collaborate with influential figures in the
+                                                fitness and crypto spaces.</li>
+                                            <li>Audit by SolidProof</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
+                                <div className='text-white-100 space-y-8'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                        <h3 className=''>
+                                            BULKING PHASE
+                                        </h3>
+                                        <p className='text-yellow-100 leading-snug'>
+                                            (GROWTH AND<br></br>
+                                            DEVELOPMENT)
+                                        </p>
+                                    </div>
 
-                                    <img src={lock} alt='lock' className='flex mx-auto mb-5 w-24'></img>
+                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
 
-                                    <h3 className='md:text-4xl text-3xl font-wedges text-center leading-loose text-yellow-100 shadow-black'>
-                                        WILL BE UNLOCKED<br></br>
-                                        AT 50M CAP
-                                    </h3>
+                                        <ul className='list-disc pl-4'>
+                                            <li>CEX Listings: List on mid-tier centralized exchanges to increase accessibility and
+                                                liquidity.</li>
+                                            <li>$PROTEIN Mini Game: Engaging game
+                                                that rewards players with $PROTEIN
+                                                tokens.</li>
+                                            <li>Huge Global Marketing Campaign</li>
+                                            <li>CMC & CoinGecko Listing</li>
+                                            <li>NFT Collection</li>
+                                        </ul>
+                                    </div>
                                 </div>
+
+                                <div className='text-white-100 space-y-8'>
+
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                        <h3 className=''>
+                                            MR. OLYMPIA PHASE
+                                        </h3>
+                                        <p className='text-yellow-100'>(ULTIMATE DOMINATION)</p>
+                                    </div>
+
+                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
+
+                                        <img src={lock} alt='lock' className='flex mx-auto mb-5 w-24'></img>
+
+                                        <h3 className='md:text-4xl text-3xl font-wedges text-center leading-loose text-yellow-100 shadow-black'>
+                                            WILL BE UNLOCKED<br></br>
+                                            AT 50M CAP
+                                        </h3>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
+
+                                <div className='text-white-100 md:space-y-12 space-y-6'>
+
+                                    <img src={dumbell1} alt='dumbell' className='flex mx-auto w-1/2'></img>
+
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                        <h3>  CUTTING PHASE</h3>
+                                        <p className='text-yellow-100 leading-snug'>(OPTIMISATION AND<br></br>
+                                            REFINEMENT)</p>
+                                    </div>
+
+                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
+
+                                        <ul className='list-disc pl-4'>
+                                            <li>Tier-1 CEX Listings: Secure listings on
+                                                Tier-1 centralized exchanges</li>
+                                            <li>Huge Partnerships: Partner with major
+                                                fitness brands and platforms
+                                                Celebrity Onboarding</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div className='text-white-100 md:space-y-12 space-y-6'>
+
+                                    <img src={dumbell2} alt='dumbell' className='flex mx-auto w-1/2'></img>
+
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                        <h3>SHREDDING PHASE</h3>
+                                        <p className='text-yellow-100 leading-snug'>(MARKET PENETRATION<br></br>
+                                            AND EXPANSION)</p>
+                                    </div>
+
+                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96 flex mx-auto'>
+
+                                        <ul className='list-disc pl-4'>
+                                            <li>  $PROTEIN App Launch (Launch a
+                                                comprehensive app with all features,
+                                                including fitness tracking, rewards, and
+                                                community engagement.)</li>
+                                            <li>Airdrop Campaign: Conduct airdrop
+                                                campaigns to reward early adopters and
+                                                attract new users.</li>
+                                            <li>Global Adoption: Drive global mass
+                                                adoption of $PROTEIN</li>
+                                            <li>Influencers: Engage the biggest world
+                                                influencers to promote $PROTEIN</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </div>
 
                         </div>
 
-                        <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
-
-                            <div className='text-white-100 md:space-y-12 space-y-6'>
-
-                                <img src={dumbell1} alt='dumbell' className='flex mx-auto w-1/2'></img>
-
-                                <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
-                                    <h3>  CUTTING PHASE</h3>
-                                    <p className='text-yellow-100 leading-snug'>(OPTIMISATION AND<br></br>
-                                        REFINEMENT)</p>
-                                </div>
-
-                                <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
-
-                                    <ul className='list-disc pl-4'>
-                                        <li>Tier-1 CEX Listings: Secure listings on
-                                            Tier-1 centralized exchanges</li>
-                                        <li>Huge Partnerships: Partner with major
-                                            fitness brands and platforms
-                                            Celebrity Onboarding</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                            <div className='text-white-100 md:space-y-12 space-y-6'>
-
-                                <img src={dumbell2} alt='dumbell' className='flex mx-auto w-1/2'></img>
-
-                                <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
-                                    <h3>SHREDDING PHASE</h3>
-                                    <p className='text-yellow-100 leading-snug'>(MARKET PENETRATION<br></br>
-                                        AND EXPANSION)</p>
-                                </div>
-
-                                <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96 flex mx-auto'>
-
-                                    <ul className='list-disc pl-4'>
-                                        <li>  $PROTEIN App Launch (Launch a
-                                            comprehensive app with all features,
-                                            including fitness tracking, rewards, and
-                                            community engagement.)</li>
-                                        <li>Airdrop Campaign: Conduct airdrop
-                                            campaigns to reward early adopters and
-                                            attract new users.</li>
-                                        <li>Global Adoption: Drive global mass
-                                            adoption of $PROTEIN</li>
-                                        <li>Influencers: Engage the biggest world
-                                            influencers to promote $PROTEIN</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
-
                 </div>
             </div>
 
@@ -661,15 +659,15 @@ export default function Home() {
 
                             <div className='flex flex-wrap items-center gap-6 font-wedges'>
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='shadow-gold hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='shadow-gold hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                     BUY $protein
                                 </button>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='shadow-gold hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='hover:shadow-md hover:shadow-yellow-100 hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
                                         X | TWITTER
                                     </button>
                                 </a>

@@ -13,6 +13,7 @@ html {
   background-image: url(./assets/click.png);
   background-position: top;
   background-repeat: no-repeat;
+  background-clip: cover;
 }
 
 .bg-click-1 {
@@ -37,9 +38,10 @@ html {
 
 .bg-bubbles {
   background-image: url(./assets/bubbles.png);
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 210vh;
+
+  /* background-size: 210vh; */
 }
 
 .bg-step-1 {
@@ -262,4 +264,18 @@ html {
 
 .slick-dots li.slick-active button:before {
   color: #FFC700 !important;
+}
+
+.slick-next {
+  right: 10px !important;
+}
+
+.slick-prev {
+  left: 10px !important;
+  z-index: 20;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 25px !important; 
+  color: #0778E6 !important;
 }
