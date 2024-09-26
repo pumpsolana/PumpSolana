@@ -25,7 +25,7 @@ export default function Steps() {
     return (
         <Slider {...settings}>
 
-            <div className="text-center font-wedges text-black-100 space-y-8 p-6">
+            <div className="text-center font-wedges text-black-100 space-y-8 p-6 my-auto">
 
                 <h3 className="md:text-5xl text-2xl text-blue-25 shadow-black">Step 1</h3>
                 <h3 className="md:text-4xl text-2xl mt-3">Get some solana</h3>
@@ -43,7 +43,7 @@ export default function Steps() {
                 </div>
             </div>
 
-            <div className="text-center font-wedges text-black-100 p-6 lg:space-y-12 space-y-6">
+            <div className="text-center font-wedges text-black-100 p-6 lg:space-y-12 space-y-6 my-auto">
 
                 <h3 className="md:text-5xl text-2xl text-blue-25 shadow-black">Step 2</h3>
                 <div className="lg:block hidden">
@@ -61,7 +61,7 @@ export default function Steps() {
 
             </div>
 
-            <div className="text-center font-wedges text-black-100 p-6 lg:space-y-12 space-y-6">
+            <div className="text-center font-wedges text-black-100 p-6 lg:space-y-12 space-y-6 my-auto">
 
                 <h3 className="md:text-5xl text-2xl text-blue-25 shadow-black">Step 3</h3>
                 <h3 className="md:text-4xl text-2xl leading-relaxed">Swap to $protien</h3>
@@ -76,7 +76,7 @@ export default function Steps() {
 
             </div>
 
-            <div className="text-center font-wedges text-black-100 space-y-5 p-6">
+            <div className="text-center font-wedges text-black-100 space-y-5 p-6 my-auto">
 
                 <h3 className="md:text-5xl text-2xl text-blue-25 shadow-black">Step 4</h3>
                 <h3 className="md:text-4xl text-2xl leading-relaxed">You ready for some<br></br>

@@ -206,7 +206,7 @@ html {
 
 
 .sidebar {
-  width: 280px;
+  width: 250px;
   min-height: 100vh;
   box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
   position: fixed;
@@ -261,7 +261,7 @@ html {
   width: 100%;
   padding: 10px 16px;
   color: #2894FF;
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 500;
   background-color: #fff;
   border-radius: 4px;
@@ -284,11 +284,19 @@ html {
 }
 
 .slick-prev {
-  left: 10px !important;
+  left: 7px !important;
   z-index: 20;
 }
 
 .slick-prev:before, .slick-next:before {
   font-size: 25px !important; 
   color: #0778E6 !important;
+}
+
+.slick-slider{
+  position: static !important;
+}
+
+.slick-dots{
+  bottom: 15px !important;
 }

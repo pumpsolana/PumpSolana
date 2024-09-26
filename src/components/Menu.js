@@ -41,10 +41,10 @@ export default function Menu() {
 
       <div className="lg:hidden flex items-center justify-between pb-6" onClick={ToggleSidebar} >
         <a href='/'>
-          <img src={logo} alt='logo' className='w-24'></img>
+          <img src={logo} alt='logo' className='w-20'></img>
         </a>
 
-        <i className="fa fa-bars text-3xl"></i>
+        <i className="fa fa-bars text-2xl"></i>
       </div>
 
       <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
@@ -54,7 +54,7 @@ export default function Menu() {
               <img src={logo} alt='logo' className='w-20'></img>
             </a
             >
-            <i className="fa fa-times text-3xl text-white-100"></i></div>
+            <i className="fa fa-times text-2xl text-white-100"></i></div>
 
           <div className="sd-body mt-20 font-fredoka">
             <ul>

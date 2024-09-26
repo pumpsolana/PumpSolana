@@ -133,13 +133,13 @@ export default function Home() {
 
                             <div className='flex items-center justify-center gap-6 mt-5 '>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-36'>
-                                        Twitter
+                                    <button className='bg-blue-200 rounded-full py-2 px-4 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-32'>
+                                        X
                                     </button>
                                 </a>
 
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-36'>
+                                    <button className='bg-blue-200 rounded-full py-2 px-4 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-32'>
                                         Telegram
                                     </button>
                                 </a>
@@ -157,11 +157,10 @@ export default function Home() {
 
             {/* get you daily protein section */}
 
-            <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full md:-translate-y-32 -translate-y-8' />
+            <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full xl:-translate-y-32 lg:-translate-y-28 md:-translate-y-16 -translate-y-8' />
 
-            <div className="lg:px-20 px-5 bg-blue-25 relative z-20">
+            <div className="lg:px-20 px-5 bg-blue-25 relative z-20 -mt-2">
                 <div className='container mx-auto'>
-
                     <div className="lg:pb-20 py-6">
 
                         <div className='flex justify-between items-end'>
@@ -180,76 +179,74 @@ export default function Home() {
 
                     </div>
 
-                </div>
+                    <div id='explore' className="lg:pb-16 py-6">
 
-                <div id='explore' className="lg:pb-16 py-6">
+                        <h3 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges shadow-black'>
+                            GET STARTED WITH <span className='text-yellow-100'>$</span>PROTEIN
+                        </h3>
 
-                    <h3 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges shadow-black'>
-                        GET STARTED WITH <span className='text-yellow-100'>$</span>PROTEIN
-                    </h3>
+                        <div className='md:pt-20 pt-8'>
 
-                    <div className='md:pt-20 pt-8'>
+                            <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3'>
 
-                        <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3'>
-
-                            <div data-aos="fade-right" className='lg:col-span-2 py-3 px-12 bg-blue-50 border-2 border-black-100 rounded-2xl text-white-100'>
-                                <p className='text-center md:text-3xl text-xl lg:mt-12 shadow-black'>
-                                    Use your Phantom wallet and connect to Raydium or Jupiter to buy <span className='text-yellow-100'>$</span>PROTEIN
-                                </p>
-                            </div>
-
-                            <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-4'>
-                                <p className='font-wedges text-2xl'>Smart contract address:</p>
-                                <p>
-                                    ED5wbeyAYtLM4WRGnohP
-                                    xJEwniaikEFioVmJyZH6K31m
-                                </p>
-
-                                <div className="">
-                                    <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-3 px-7 hover:bg-blue-50 shadow-btn'>
-                                        <img src={copy} alt='copy' className=''></img>
-                                    </button>
-
-                                    <span className="text-black-100 absolute duration-300 ml-2 translate-y-4 text-sm">
-                                        {copySuccess}
-                                    </span>
+                                <div data-aos="fade-right" className='lg:col-span-2 py-3 px-12 bg-blue-50 border-2 border-black-100 rounded-2xl text-white-100'>
+                                    <p className='text-center md:text-3xl text-xl lg:mt-12 shadow-black'>
+                                        Use your Phantom wallet and connect to Raydium or Jupiter to buy <span className='text-yellow-100'>$</span>PROTEIN
+                                    </p>
                                 </div>
-                            </div>
 
-                        </div>
+                                <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-4'>
+                                    <p className='font-wedges text-2xl'>Smart contract address:</p>
+                                    <p>
+                                        ED5wbeyAYtLM4WRGnohP
+                                        xJEwniaikEFioVmJyZH6K31m
+                                    </p>
 
-                        <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3 text-center mt-3'>
-
-                            <div data-aos="fade-right" className='border-2 border-black-100 col-span-1 bg-white-50 rounded-2xl font-lilita'>
-                                <p className='text-2xl my-6'>Track $PROTEIN CHART:</p>
-
-                                <div className='flex flex-col gap-y-6'>
-                                    <a href='/'>
-                                        <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125'>
-                                            DEXTOOLS
+                                    <div className="">
+                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-3 px-7 hover:bg-blue-50 shadow-btn'>
+                                            <img src={copy} alt='copy' className=''></img>
                                         </button>
-                                    </a>
 
-                                    <a href='/'>
-                                        <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125'>
-                                            DEXSCREENER
-                                        </button>
-                                    </a>
-
-                                    <img src={chart} alt='' className='mt-6 w-10/12 flex mx-auto'></img>
-
+                                        <span className="text-black-100 absolute duration-300 ml-2 translate-y-4 text-sm">
+                                            {copySuccess}
+                                        </span>
+                                    </div>
                                 </div>
 
                             </div>
 
-                            <div data-aos="fade-left" className='lg:col-span-2 border-2 border-black-100 bg-white-200 rounded-2xl'>
-                                <Steps />
+                            <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3 text-center mt-3'>
+
+                                <div data-aos="fade-right" className='border-2 border-black-100 col-span-1 bg-white-50 rounded-2xl font-lilita'>
+                                    <p className='text-2xl my-6'>Track $PROTEIN CHART:</p>
+
+                                    <div className='flex flex-col gap-y-6'>
+                                        <a href='/'>
+                                            <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                                DEXTOOLS
+                                            </button>
+                                        </a>
+
+                                        <a href='/'>
+                                            <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                                DEXSCREENER
+                                            </button>
+                                        </a>
+
+                                        <img src={chart} alt='' className='mt-6 w-10/12 flex mx-auto'></img>
+
+                                    </div>
+
+                                </div>
+
+                                <div data-aos="fade-left" className='lg:col-span-2 border-2 border-black-100 bg-white-200 rounded-2xl'>
+                                    <Steps />
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
                 </div>
-
             </div>
 
             <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full -translate-y-1 rotate-180' />
@@ -518,9 +515,9 @@ export default function Home() {
 
                                     <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
 
-                                        <img src={lock} alt='lock' className='flex mx-auto mb-5 w-24'></img>
+                                        <img src={lock} alt='lock' className='flex mx-auto mb-5 w-20'></img>
 
-                                        <h3 className='md:text-4xl text-3xl font-wedges text-center leading-loose text-yellow-100 shadow-black'>
+                                        <h3 className='md:text-4xl text-3xl font-wedges text-center lg:leading-snug text-yellow-100 shadow-black'>
                                             WILL BE UNLOCKED<br></br>
                                             AT 50M CAP
                                         </h3>
@@ -675,17 +672,17 @@ export default function Home() {
                                 NOW
                             </h3>
 
-                            <div className='flex flex-wrap items-center gap-6 font-wedges'>
+                            <div className='flex flex-wrap items-center gap-3 font-wedges'>
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl tracking-wide'>
                                     BUY $protein
                                 </button>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-5 text-white-100 rounded-2xl tracking-wide'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         X | TWITTER
                                     </button>
                                 </a>
