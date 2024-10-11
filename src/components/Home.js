@@ -243,8 +243,7 @@ export default function Home() {
                                             </button>
                                         </a>
 
-                                        <img src={chart} alt='' className='mt-6 w-10/12 flex mx-auto'></img>
-
+                                        <img src={chart} alt='' className='mt-6 flex mx-auto rounded-b-xl'></img>
                                     </div>
 
                                 </div>
@@ -405,7 +404,7 @@ export default function Home() {
                             </div>
 
                             <div className='bg-blue-50 p-1 border-2 border-black-100 rounded-3xl text-center duration-150 hover:scale-105'>
-                                <img src={why6} alt='' className='w-full'></img>
+                                <img src={why6} alt='' className='rounded-3xl h-72 object-cover w-full'></img>
 
                                 <div className='px-5 py-5'>
                                     <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
@@ -440,7 +439,7 @@ export default function Home() {
             <img src={bubbles} className='w-full'></img>
 
             <div className="">
-                <div id='roadmap' className="bg-roadmap lg:-mt-32 md:-mt-12 -mt-8">
+                <div className="bg-roadmap lg:-mt-32 md:-mt-12 -mt-8">
                     <div className='lg:px-20 px-5 container mx-auto lg:pt-20 pt-6'>
 
                         <div className='lg:flex items-start justify-between lg:space-y-0 space-y-8'>
@@ -482,7 +481,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 shadow-black'>
+                        <div id='roadmap' data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 shadow-black'>
                             <h3 className='text-10xl'>
                                 <span className='text-yellow-100'>$</span>PUMP
                             </h3>
@@ -708,9 +707,9 @@ export default function Home() {
             <div id='join' className="">
                 <div className='lg:px-20 px-5 lg:pt-52 pt-20 lg:pb-20 pb-12 container mx-auto'>
 
-                    <div className='lg:flex items-start justify-center'>
+                    <div className='lg:flex items-start justify-between'>
 
-                        <div className='md:space-y-12 space-y-6 lg:w-8/12'>
+                        <div className='md:space-y-12 space-y-6 lg:w-1/2'>
                             <h3 className='md:text-8xl text-4xl font-wedges text-blue-50 shadow-black'>
                                 JOIN <span className='text-yellow-100'>$</span>PUMP
                                 NOW
@@ -739,7 +738,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div>
+                        <div className='lg:w-1/2'>
                             <img src={join} alt='' className='relative z-20'></img>
                         </div>
                     </div>

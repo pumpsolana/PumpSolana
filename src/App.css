@@ -3,7 +3,7 @@ html {
 }
 
 .bg-top {
-  background-image: url(./assets/bg_top.jpg);
+  background-image: url(./assets/bg_top.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +61,8 @@ html {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100vw;
+  background-color: rgba(255, 255, 255, 0.91);
+  background-blend-mode: overlay;
 }
 
 .text-outline {
@@ -89,7 +91,7 @@ html {
 }
 
 .shadow-gold:hover {
-  text-shadow: 3px 3px 12px #FFA409;
+  text-shadow: 3px 3px 12px #B558FF;
 }
 
 .shadow-btn {
@@ -97,7 +99,7 @@ html {
 }
 
 .shadow-btn:hover {
-  box-shadow: 1px 1px 10px #FFA409;
+  box-shadow: 1px 1px 10px #B558FF;
 }
 
 .shadow-btn1 {
@@ -105,7 +107,7 @@ html {
 }
 
 .shadow-btn1:hover {
-  box-shadow: 1px 1px 10px #ffff00;
+  box-shadow: 1px 1px 10px #B558FF;
 }
 
 .rotate-30 {
@@ -131,7 +133,7 @@ html {
 }
 
 .text-shine {
-  text-shadow: 5px 3px 8px #FFA409;
+  text-shadow: 5px 3px 8px #B558FF;
   animation: flicker 1s ease-in-out infinite alternate;
 }
 
@@ -139,7 +141,7 @@ html {
 
   from {
     text-shadow:
-      3px 3px 3px #FFA409,
+      3px 3px 3px #B558FF,
   }
 
   to {
@@ -288,15 +290,16 @@ html {
   z-index: 20;
 }
 
-.slick-prev:before, .slick-next:before {
-  font-size: 25px !important; 
+.slick-prev:before,
+.slick-next:before {
+  font-size: 25px !important;
   color: #0778E6 !important;
 }
 
-.slick-slider{
+.slick-slider {
   position: static !important;
 }
 
-.slick-dots{
+.slick-dots {
   bottom: 15px !important;
 }

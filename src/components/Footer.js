@@ -1,5 +1,5 @@
 import React from 'react'
-import logo1 from '../assets/logo1.png';
+import logo1 from '../assets/logo.png';
 import twitter from '../assets/twitter.png';
 import telegram from '../assets/telegram.png';
 import footer1 from '../assets/footer1.png';
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-col gap-y-6 justify-center items-center">
 
           <div>
-            <img src={logo1} alt='logo' className=''></img>
+            <img src={logo1} alt='logo' className='w-40'></img>
           </div>
 
           <nav>
