@@ -64,13 +64,13 @@ export default function Steps() {
             <div className="text-center font-wedges text-black-100 p-6 lg:space-y-12 space-y-6 my-auto">
 
                 <h3 className="md:text-5xl text-2xl text-blue-25 shadow-black">Step 3</h3>
-                <h3 className="md:text-4xl text-2xl leading-relaxed">Swap to $protien</h3>
+                <h3 className="md:text-4xl text-2xl leading-relaxed">Swap to $pump</h3>
                 <div className="lg:block hidden">
                     <img src={step3} alt="" className="w-28 float-right lg:block hidden"></img>
                 </div>
                 <p className="md:text-3xl text-xl">
                     Go to raydium or jupiter<br></br>
-                    Paste $protien contract and do the
+                    Paste $pump contract and do the
                     transaction
                 </p>
 
@@ -86,7 +86,7 @@ export default function Steps() {
                 </div>
                 <p className="md:text-3xl text-xl">
                     Now that you grabbed some
-                    $protien. Lets work our gains
+                    $pump. Lets work our gains
                 </p>
 
             </div>

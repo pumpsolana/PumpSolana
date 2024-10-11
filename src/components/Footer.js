@@ -30,7 +30,7 @@ export default function Footer() {
               <li><a href="#explore" className="">Explore</a></li>
               <li><a href="#benefits" className="">Benefits</a></li>
               <li><a href="#roadmap" className="">Roadmap</a></li>
-              <li><a href="#tokenomics" className="">Proteinomics</a></li>
+              <li><a href="#tokenomics" className="">Pumponomics</a></li>
             </ul>
           </nav>
 
@@ -46,7 +46,7 @@ export default function Footer() {
 
         </div>
 
-        <p className='text-center pt-5'> {new Date().getFullYear()}© Protein Coin</p>
+        <p className='text-center pt-5'> {new Date().getFullYear()}© PUMP</p>
 
       </footer>
 

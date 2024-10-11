@@ -29,12 +29,12 @@ export default function Menu() {
             <li><a href="#explore" className="duration-100 shadow-gold">Explore</a></li>
             <li><a href="#benefits" className="duration-100 shadow-gold">Benefits</a></li>
             <li><a href="#roadmap" className="duration-100  shadow-gold">Roadmap</a></li>
-            <li><a href="#tokenomics" className=" duration-100 shadow-gold">Proteinomics</a></li>
+            <li><a href="#tokenomics" className=" duration-100 shadow-gold">Pumponomics</a></li>
           </ul>
         </nav>
 
         <button className='bg-blue-200 border-4 border-blue-50 py-2 px-5 text-white-100 rounded-2xl hover:bg-blue-50 hover:border-blue-200 duration-150 text-xxl shadow-btn'>
-          BUY $PROTEIN
+          BUY $PUMP
         </button>
 
       </div>
@@ -61,7 +61,7 @@ export default function Menu() {
               <li><a onClick={ToggleSidebar} href='/' className="sd-link">Explore</a></li>
               <li><a onClick={ToggleSidebar} href='#benefits' className="sd-link">Benefits</a></li>
               <li><a onClick={ToggleSidebar} href='#roadmap' className="sd-link">Roadmap</a></li>
-              <li><a onClick={ToggleSidebar} href='#tokenomics' className="sd-link">Proteinomics</a></li>
+              <li><a onClick={ToggleSidebar} href='#tokenomics' className="sd-link">Pumponomics</a></li>
             </ul>
           </div>
 

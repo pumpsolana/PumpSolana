@@ -63,24 +63,34 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'How do I buy $PROTEIN?',
-            content: `lorem ipsum dolor`
+            title: 'How do I buy $PUMP?',
+            content: `You can purchase $PUMP on leading decentralized exchanges (DEXs) that
+                       support Ethereum tokens. Ensure you have a compatible wallet and some
+                       Ethereum (ETH) to cover transaction fees.`
         },
         {
-            title: 'What can I use $PROTEIN for?',
-            content: `lorem ipsum dolor`
+            title: 'What can I use $PUMP for?',
+            content: `$PUMP enables seamless transactions on both decentralized and centralized
+                      exchanges, easily converting into popular cryptocurrencies. It also supports
+                      fitness-related initiatives and partnerships.`
         },
         {
-            title: 'How does $PROTEIN support the fitness community?',
-            content: `lorem ipsum dolor`
+            title: 'How does $PUMP support the fitness community?',
+            content: `Partnering with renowned global fitness brands, $PUMP gains market credibility.
+                      As it grows in popularity, $PUMP will also support smaller fitness brands, boosting
+                      their visibility with community involvement. Additionally, $PUMP will promote
+                      fitness culture through these partnerships.`
         },
         {
-            title: 'What makes the Solana blockchain special for $PROTEIN?',
-            content: `lorem ipsum dolor`
+            title: 'What makes the Ethereum blockchain special for $PUMP?',
+            content: `The Ethereum blockchain is known for its high-performance capabilities, offering
+                       fast transaction speeds and low fees. This ensures a seamless and enjoyable user
+                       experience for all $PUMP holders.`
         },
         {
-            title: 'What are the future plans for $PROTEIN?',
-            content: `lorem ipsum dolor`
+            title: 'What are the future plans for $PUMP?',
+            content: `$PUMP plans to build a loyal community through strategic planning and
+                      transparency, leveraging this strength for advantageous brand`
         }
     ];
 
@@ -92,9 +102,9 @@ export default function Home() {
             <div className='pt-2 pb-1 bg-blue-50 text-white-100 font-wedges'>
                 <marquee scrollamount="10" direction="right">
                     <div className=' flex items-center justify-between'>
-                        <p className='md:text-2xl text-xl'>$protein FOR CRYPTO GAINS</p>
-                        <p className='md:text-2xl text-xl'>$protein FOR CRYPTO GAINS</p>
-                        <p className='md:text-2xl text-xl'>$protein FOR CRYPTO GAINS</p>
+                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
+                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
+                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
                     </div>
                 </marquee>
 
@@ -107,12 +117,12 @@ export default function Home() {
                         <Menu />
                     </div>
 
-                    <div className="lg:flex block justify-between items-start pb-8 lg:space-y-0 space-y-6">
+                    <div className="lg:flex block justify-center items-start pb-8 lg:space-y-0 space-y-6">
 
-                        <div className='text-center -rotate-30'>
-                            <div className='md:text-8xl text-6xl text-center text-blue-50 font-wedges md:space-y-8 space-y-6 lg:mt-28 shadow-black shadow-black'>
+                        <div className='text-center -rotate-30 lg:w-1/2'>
+                            <div className='md:text-8xl text-6xl text-center text-blue-50 font-wedges md:space-y-8 space-y-6 lg:mt-32 shadow-black shadow-black'>
                                 <h1 className=''>
-                                    <span className='text-yellow-100'>$</span>PROTEIN
+                                    <span className='text-yellow-100'>$</span>PUMP
                                 </h1>
                                 <h2 className='md:text-8xl text-6xl'>
                                     COIN
@@ -127,20 +137,20 @@ export default function Home() {
 
                                 <p className='md:text-3xl text-2xl outline-2 outline-white-100'>
                                     with
-                                    $protein
+                                    $PUMP
                                 </p>
                             </div>
 
                             <div className='flex items-center justify-center gap-6 mt-5 '>
                                 <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-4 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-32'>
-                                        X
+                                    <button className='bg-blue-200 rounded-full py-2.5 px-4 hover:bg-blue-50 duration-150 hover:scale-125 shadow-btn1 w-24'>
+                                        <svg className='block mx-auto' xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24"><path fill="#fff" d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z" /></svg>
                                     </button>
                                 </a>
 
                                 <a href='https://t.me/ProteinPortal'>
-                                    <button className='bg-blue-200 rounded-full py-2 px-4 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn1 w-32'>
-                                        Telegram
+                                    <button className='bg-blue-200 rounded-full py-2.5 px-4 hover:bg-blue-50 duration-150 hover:scale-125 shadow-btn1 w-24'>
+                                        <svg className='block mx-auto' xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24"><g fill="#fff" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" /><path fill="#fff" d="M19.777 4.43a1.5 1.5 0 0 1 2.062 1.626l-2.268 13.757c-.22 1.327-1.676 2.088-2.893 1.427c-1.018-.553-2.53-1.405-3.89-2.294c-.68-.445-2.763-1.87-2.507-2.884c.22-.867 3.72-4.125 5.72-6.062c.785-.761.427-1.2-.5-.5c-2.302 1.738-5.998 4.381-7.22 5.125c-1.078.656-1.64.768-2.312.656c-1.226-.204-2.363-.52-3.291-.905c-1.254-.52-1.193-2.244-.001-2.746z" /></g></svg>
                                     </button>
                                 </a>
                             </div>
@@ -148,7 +158,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <img src={top} alt='top' className='lg:w-9/12 flex mx-auto'></img>
+                            <img src={top} alt='top' className='lg:w-10/12 flex mx-auto'></img>
                         </div>
 
                     </div>
@@ -170,7 +180,7 @@ export default function Home() {
 
                         <h2 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black'>
                             Get your <span className='text-yellow-100'>daily</span><br></br>
-                            <span className='text-yellow-100'>$</span>protein in <span className='text-yellow-100'>one click</span>
+                            <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
                         </h2>
 
                         <div className='mt-12'>
@@ -182,7 +192,7 @@ export default function Home() {
                     <div id='explore' className="lg:pb-16 py-6">
 
                         <h3 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges shadow-black'>
-                            GET STARTED WITH <span className='text-yellow-100'>$</span>PROTEIN
+                            GET STARTED WITH <span className='text-yellow-100'>$</span>PUMP
                         </h3>
 
                         <div className='md:pt-20 pt-8'>
@@ -191,7 +201,7 @@ export default function Home() {
 
                                 <div data-aos="fade-right" className='lg:col-span-2 py-3 px-12 bg-blue-50 border-2 border-black-100 rounded-2xl text-white-100'>
                                     <p className='text-center md:text-3xl text-xl lg:mt-12 shadow-black'>
-                                        Use your Phantom wallet and connect to Raydium or Jupiter to buy <span className='text-yellow-100'>$</span>PROTEIN
+                                        Use your Phantom wallet and connect to Raydium or Jupiter to buy <span className='text-yellow-100'>$</span>PUMP
                                     </p>
                                 </div>
 
@@ -218,7 +228,7 @@ export default function Home() {
                             <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3 text-center mt-3'>
 
                                 <div data-aos="fade-right" className='border-2 border-black-100 col-span-1 bg-white-50 rounded-2xl font-lilita'>
-                                    <p className='text-2xl my-6'>Track $PROTEIN CHART:</p>
+                                    <p className='text-2xl my-6'>Track $PUMP CHART:</p>
 
                                     <div className='flex flex-col gap-y-6'>
                                         <a href='/'>
@@ -263,13 +273,15 @@ export default function Home() {
 
                         <div className='lg:w-6/12 lg:space-y-8 space-y-6'>
                             <h3 className='md:text-7xl sm:text-5xl text-4xl font-lilita shadow-black'>
-                                WHY $PROTEIN?
+                                WHY $PUMP?
                             </h3>
 
                             <p data-aos="fade-up" className='md:text-2xl text-lg leading-relaxed font-fredoka font-semibold md:px-16 px-6 shadow-sm shadow-black'>
-                                $PROTEIN isn't just another meme coin; it's your gym bro in the crypto world, supercharging your wallet gains. This token
-                                pumps up your crypto game and flexes on the blockchain, not just as digital cash but as your secret powder for financial gains.
-                                Rally your squad and get in on the $PROTEIN action, where gains and memes lift together!
+                                $PUMP is the overconfident,
+                                muscle-bound chart-mover whoflexes his way through the crypto
+                                world. Sporting a purple bandana with his name emblazoned across it and a belt featuring the Solana
+                                logo, $PUMP embodies pure energy and power. He’s not just
+                                here to watch the market—he’s here to make the market move.  Whether it’s pulling off crazy stunts  or lifting entire resistance lines,  $PUMP is on a mission to send every chart to new all-time highs Backed by his loyal $Pump Bros, $PUMP does whatever it takes to drive the charts up, one flex at a time.
                             </p>
                         </div>
                     </div>
@@ -286,7 +298,7 @@ export default function Home() {
                                     </h5>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
                                         We've secured pre-agreed listings on
-                                        multiple CEXes to ensure $PROTEIN is
+                                        multiple CEXes to ensure $PUMP is
                                         tradable right on time.
                                     </p>
                                 </div>
@@ -297,15 +309,22 @@ export default function Home() {
 
                                 <div className='px-5 py-5'>
                                     <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
-                                        NFT'S
+                                        Our Unique PUMP NFTs
                                     </h5>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
-                                        Our unique, fitness-themed NFTs are more
-                                        than collectibles; they're keys to exclusive
-                                        ecosystem perks. Each NFT is a symbol of
-                                        strength and commitment, serving as a
-                                        badge of honor for true $PROTEIN
-                                        enthusiasts.
+                                        Our exclusive $PUMP-themed
+                                        NFTs are more than just
+                                        collectibles; they’re your gateway
+                                        to unique perks within the $PUMP
+                                        ecosystem. Each NFT embodies
+                                        the power and momentum of the
+                                        $PUMP community, serving as a
+                                        symbol of your commitment to
+                                        pushing the market higher. These
+                                        NFTs aren’t just digital assets—
+                                        they’re badges of honor for those
+                                        who believe in $PUMP's ability to
+                                        send the charts soaring!
                                     </p>
                                 </div>
                             </div>
@@ -318,11 +337,12 @@ export default function Home() {
                                         PLAY 2 EARN
                                     </h5>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
-                                        Challenge your skills and earn rewards
-                                        with $PROTEIN mini-games. These games
-                                        are designed to be engaging and
-                                        rewarding, perfect for both casual and
-                                        competitive players.
+                                        Challenge your skills and earn
+                                        rewards with $PUMP mini-games.
+                                        These games are designed to be
+                                        engaging and rewarding, perfect
+                                        for both casual and competitive
+                                        players.
                                     </p>
                                 </div>
                             </div>
@@ -332,14 +352,24 @@ export default function Home() {
 
                                 <div className='px-5 py-5'>
                                     <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
-                                        FIT 2 EARN
+                                        PUMP 2 EARN
                                     </h5>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
-                                        Stay active and earn $PROTEIN tokens
-                                        with our Fit 2 Earn challenges. Whether
-                                        hitting the gym or meeting daily step goals,
-                                        turn your fitness efforts into tangible
-                                        rewards.
+                                        Get rewarded for helping boost the
+                                        $PUMP ecosystem! Similar to
+                                        social mining, every action you
+                                        take—whether hyping up the
+                                        charts, engaging in the community,
+                                        or spreading the word on social
+                                        media—earns you $PUMP tokens.
+                                        The more you contribute, the
+                                        higher the charts rise, and the
+                                        more rewards you collect. Flex
+                                        your market influence, $PUMP up
+                                        the excitement, and watch those
+                                        green candles soar. In the $PUMP
+                                        world, every contribution fuels the
+                                        movement!
                                     </p>
                                 </div>
                             </div>
@@ -352,18 +382,24 @@ export default function Home() {
                                         GET REWARDED
                                     </h5>
                                     <h6 className='md:text-2xl text-xl font-lilita font-medium mb-5 shadow-black'>
-                                        FOR SHARING YOUR
-                                        GAINS
+                                        Get Rewarded for Sharing the
+                                        $PUMP
                                     </h6>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
-                                        Partner with $PROTEIN and our affiliated
-                                        gyms to earn rewards for showcasing your
-                                        fitness journey. Post about your workouts
-                                        on social media, inspire your followers, and
-                                        earn $PROTEIN tokens for each update.
-                                        This initiative boosts your motivation and
-                                        strengthens our community, enhancing
-                                        your gains inside and outside the gym.
+                                        Partner with $PUMP and help drive
+                                        the excitement by sharing your
+                                        journey with the community. Post
+                                        about your experience with
+                                        $PUMP on social media, hype up
+                                        your followers, and earn $PUMP
+                                        tokens for every update. This
+                                        initiative strengthens the $PUMP
+                                        movement and boosts your
+                                        influence in the market—inside and
+                                        outside the crypto world. Flex your
+                                        impact, share the gains, and watch
+                                        your rewards grow!
+
                                     </p>
                                 </div>
                             </div>
@@ -376,13 +412,17 @@ export default function Home() {
                                         GYM MERCH
                                     </h5>
                                     <p className='font-fredoka font-semibold leading-tight text-shadow'>
-                                        Flex in the gym with our crypto-themed
-                                        gym merch that’s as pumped as your
-                                        portfolio! Rock our epic tees and beast-
-                                        mode gear, all emblazoned with $PROTEIN
-                                        swag to power both your pumps and your
-                                        dumps. Get kitted, lift heavy, and let every
-                                        rep drop gains like a crypto bull run!
+                                        Flex in the market with our
+                                        exclusive $PUMP-themed merch
+                                        that’s as strong as your portfolio!
+                                        Rock our epic tees and beastmode gear, all emblazoned with
+                                        $PUMP swag to power both your
+                                        trades and your market moves. Get
+                                        kitted, spread the hype, and let
+                                        every $PUMP in the market feel
+                                        like a bull run. It's not just fashion
+                                        —it's a lifestyle for those who live
+                                        to $PUMP!
                                     </p>
                                 </div>
                             </div>
@@ -407,16 +447,17 @@ export default function Home() {
 
                             <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-12 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
-                                    Train like a Whale invest <br></br>
-                                    like one too with $protein
+                                    "Whales might splash, but
+                                    $PUMP’s out here bench-pressing
+                                    the entire market!”
                                 </button>
 
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12 lg:ml-32'>
-                                    $protein for Crypto Gains
+                                    $PUMP for Crypto Gains
                                 </button>
 
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-8 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
-                                    MOON YOUR MUSCLES
+                                    $PUMP YOUR PORTFOLIO
                                 </button>
                             </div>
 
@@ -426,23 +467,24 @@ export default function Home() {
 
                             <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight rotate-30 lg:-translate-x-12'>
-                                    HODL your $protein for massive<br></br>
-                                    crypt gains
+                                    Don’t wait for the dip—#PUMP’s
+                                    already out here benching the
+                                    charts!
                                 </button>
 
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-6'>
-                                    Lifting $protein to the Moon
+                                    Lifting $PUMP to the Moon
                                 </button>
 
                                 <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12'>
-                                    Bear the weight, enjoy the gains
+                                    Bear the weight, enjoy the $pump
                                 </button>
                             </div>
                         </div>
 
                         <div data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 shadow-black'>
                             <h3 className='text-10xl'>
-                                <span className='text-yellow-100'>$</span>protein
+                                <span className='text-yellow-100'>$</span>PUMP
                             </h3>
                             <h3 className='text-10xl'>
                                 Roadmap
@@ -465,9 +507,10 @@ export default function Home() {
                                     <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
-                                            <li>Presale: Launch $PROTEIN token with
-                                                heavy presale limits (100 sol per wallet)</li>
-                                            <li>List $PROTEIN on DEXes</li>
+                                            <li>Presale: Launch $PUMP token with
+                                                heavy presale limits (100 sol per
+                                                wallet)</li>
+                                            <li>List $PUMP on DEXes</li>
                                             <li>Huge Global Marketing Campaign</li>
                                             <li>CMC & CoinGecko Listing</li>
                                             <li>Onboarding KOLs (Key Opinion Leaders):
@@ -494,8 +537,8 @@ export default function Home() {
                                         <ul className='list-disc pl-4'>
                                             <li>CEX Listings: List on mid-tier centralized exchanges to increase accessibility and
                                                 liquidity.</li>
-                                            <li>$PROTEIN Mini Game: Engaging game
-                                                that rewards players with $PROTEIN
+                                            <li>$PUMP Mini Game: Engaging game
+                                                that rewards players with $PUMP
                                                 tokens.</li>
                                             <li>Huge Global Marketing Campaign</li>
                                             <li>CMC & CoinGecko Listing</li>
@@ -543,9 +586,10 @@ export default function Home() {
                                         <ul className='list-disc pl-4'>
                                             <li>Tier-1 CEX Listings: Secure listings on
                                                 Tier-1 centralized exchanges</li>
-                                            <li>Huge Partnerships: Partner with major
-                                                fitness brands and platforms
-                                                Celebrity Onboarding</li>
+                                            <li>Huge Partnerships: Partner with
+                                                major platforms and influencers to
+                                                expand reach
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -564,7 +608,7 @@ export default function Home() {
                                     <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96 flex mx-auto'>
 
                                         <ul className='list-disc pl-4'>
-                                            <li>  $PROTEIN App Launch (Launch a
+                                            <li>$PUMP App Launch (Launch a
                                                 comprehensive app with all features,
                                                 including fitness tracking, rewards, and
                                                 community engagement.)</li>
@@ -572,9 +616,9 @@ export default function Home() {
                                                 campaigns to reward early adopters and
                                                 attract new users.</li>
                                             <li>Global Adoption: Drive global mass
-                                                adoption of $PROTEIN</li>
+                                                adoption of $PUMP</li>
                                             <li>Influencers: Engage the biggest world
-                                                influencers to promote $PROTEIN</li>
+                                                influencers to promote $PUMP</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -608,7 +652,7 @@ export default function Home() {
 
                         <div className='lg:w-1/2 text-center'>
                             <h3 className='md:text-7xl text-4xl font-wedges text-yellow-100 shadow-black'>
-                                PROTEINOMICS
+                                PUMPONOMICS
                             </h3>
 
                             <div className='space-y-8 md:mt-8 mt-5'>
@@ -623,7 +667,7 @@ export default function Home() {
                             <div className='flex items-center justify-center mt-12 md:gap-x-16 gap-x-8'>
                                 <div className='md:space-y-8 space-y-5'>
                                     <p className='md:text-5xl text-3xl font-wedges text-white-100 shadow-black'>
-                                        $protein
+                                        $PUMP
                                     </p>
                                     <p className='md:text-3xl text-xl font-wedges text-black-100 shadow-white'>
                                         Token Ticker
@@ -668,7 +712,7 @@ export default function Home() {
 
                         <div className='md:space-y-12 space-y-6 lg:w-8/12'>
                             <h3 className='md:text-8xl text-4xl font-wedges text-blue-50 shadow-black'>
-                                JOIN <span className='text-yellow-100'>$</span>PROTEIN
+                                JOIN <span className='text-yellow-100'>$</span>PUMP
                                 NOW
                             </h3>
 
@@ -679,7 +723,7 @@ export default function Home() {
                                     </button>
                                 </a>
                                 <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl tracking-wide'>
-                                    BUY $protein
+                                    BUY $PUMP
                                 </button>
                                 <a href='https://x.com/ProteinCoinSol'>
                                     <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
@@ -699,16 +743,6 @@ export default function Home() {
                             <img src={join} alt='' className='relative z-20'></img>
                         </div>
                     </div>
-
-                    {/* <img src={join_right} alt='' className='absolute right-0 z-30 -mt-48 lg:block hidden'></img>
-
-                    <div className='lg:flex items-center gap-0 justify-center py-44 hidden'>
-                        <img src={join1} alt='' className='absolute left-0 z-20'></img>
-                        <img src={join2} alt='' className='absolute left-1/4 z-10 -mt-44'></img>
-                        <img src={join3} alt='' className='absolute left-1/3 mt-64'></img>
-                        <img src={join4} alt='' className='absolute right-0 mr-52 mt-44 z-40'></img>
-                        <img src={join5} alt='' className='absolute right-0'></img>
-                    </div> */}
 
                     <div className='lg:flex mx-auto -mt-12 hidden'>
                         <img src={join6} alt='' className='w-full'></img>
