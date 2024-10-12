@@ -29,7 +29,7 @@ export default function Menu() {
             <li><a href="#explore" className="duration-100 shadow-gold">Explore</a></li>
             <li><a href="#benefits" className="duration-100 shadow-gold">Benefits</a></li>
             <li><a href="#roadmap" className="duration-100  shadow-gold">Roadmap</a></li>
-            <li><a href="#tokenomics" className=" duration-100 shadow-gold">Pumponomics</a></li>
+            <li><a href="#tokenomics" className=" duration-100 shadow-gold">Pumpenomics</a></li>
           </ul>
         </nav>
 
@@ -61,7 +61,7 @@ export default function Menu() {
               <li><a onClick={ToggleSidebar} href='/' className="sd-link">Explore</a></li>
               <li><a onClick={ToggleSidebar} href='#benefits' className="sd-link">Benefits</a></li>
               <li><a onClick={ToggleSidebar} href='#roadmap' className="sd-link">Roadmap</a></li>
-              <li><a onClick={ToggleSidebar} href='#tokenomics' className="sd-link">Pumponomics</a></li>
+              <li><a onClick={ToggleSidebar} href='#tokenomics' className="sd-link">Pumpenomics</a></li>
             </ul>
           </div>
 

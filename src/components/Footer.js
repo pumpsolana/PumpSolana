@@ -25,7 +25,7 @@ export default function Footer() {
               <li><a href="#explore" className="">Explore</a></li>
               <li><a href="#benefits" className="">Benefits</a></li>
               <li><a href="#roadmap" className="">Roadmap</a></li>
-              <li><a href="#tokenomics" className="">Pumponomics</a></li>
+              <li><a href="#tokenomics" className="">Pumpenomics</a></li>
             </ul>
           </nav>
 
