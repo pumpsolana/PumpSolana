@@ -3,7 +3,7 @@ html {
 }
 
 .bg-top {
-  background-image: url(./assets/bg_top.png);
+  background-image: url(./assets/bg_top.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,11 +58,9 @@ html {
 
 .bg-faq {
   background-image: url(./assets/bg-faq.png);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-color: rgba(255, 255, 255, 0.91);
-  background-blend-mode: overlay;
 }
 
 .text-outline {
@@ -197,11 +195,15 @@ html {
     height: auto;
   }
 
-
   .text-10xl {
     font-size: 4rem;
     line-height: 1;
   }
+
+  .slick-slide img{
+    width: 170px !important;
+  }
+  
 }
 
 /* sidebar styling */
@@ -278,7 +280,7 @@ html {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #FFC700 !important;
+  color: #B558FF !important;
 }
 
 .slick-next {
@@ -293,7 +295,7 @@ html {
 .slick-prev:before,
 .slick-next:before {
   font-size: 25px !important;
-  color: #0778E6 !important;
+  color: #B558FF !important;
 }
 
 .slick-slider {

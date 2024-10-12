@@ -19,7 +19,7 @@ import dumbell1 from '../assets/dumbell1.png';
 import dumbell2 from '../assets/dumbell2.png';
 import side_1 from '../assets/side_1.png';
 import side_2 from '../assets/side_2.png';
-import join6 from '../assets/join6.png';
+import story from '../assets/story.png';
 import chart from '../assets/chart.png';
 import cloud1 from '../assets/cloud1.png';
 import cloud2 from '../assets/cloud2.png';
@@ -30,12 +30,14 @@ import dumbell3 from '../assets/dumbell3.png';
 import token1 from '../assets/token1.png';
 import gym from '../assets/gym.png';
 import window from '../assets/window.png';
+import weight from '../assets/weight.png';
 import clock from '../assets/clock.png';
 import video from '../assets/video.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Steps from './Steps';
+import Slide from './Slide';
 
 
 export default function Home() {
@@ -94,6 +96,12 @@ export default function Home() {
         }
     ];
 
+    const items = [
+        { title: 'Item 1', content: 'Content for item 1' },
+        { title: 'Item 2', content: 'Content for item 2' },
+        { title: 'Item 3', content: 'Content for item 3' },
+    ];
+
     return (
         <div className="font-sniglet overflow-hidden text-black-100">
 
@@ -107,7 +115,6 @@ export default function Home() {
                         <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
                     </div>
                 </marquee>
-
             </div>
 
             <div className="lg:px-20 px-5 bg-top">
@@ -142,13 +149,13 @@ export default function Home() {
                             </div>
 
                             <div className='flex items-center justify-center gap-6 mt-5 '>
-                                <a href='https://x.com/ProteinCoinSol'>
+                                <a href='https://x.com/pumpbysol'>
                                     <button className='bg-blue-200 rounded-full py-2.5 px-4 hover:bg-blue-50 duration-150 hover:scale-125 shadow-btn1 w-24'>
                                         <svg className='block mx-auto' xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24"><path fill="#fff" d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z" /></svg>
                                     </button>
                                 </a>
 
-                                <a href='https://t.me/ProteinPortal'>
+                                <a href='https://t.me/pumpbysol'>
                                     <button className='bg-blue-200 rounded-full py-2.5 px-4 hover:bg-blue-50 duration-150 hover:scale-125 shadow-btn1 w-24'>
                                         <svg className='block mx-auto' xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24"><g fill="#fff" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" /><path fill="#fff" d="M19.777 4.43a1.5 1.5 0 0 1 2.062 1.626l-2.268 13.757c-.22 1.327-1.676 2.088-2.893 1.427c-1.018-.553-2.53-1.405-3.89-2.294c-.68-.445-2.763-1.87-2.507-2.884c.22-.867 3.72-4.125 5.72-6.062c.785-.761.427-1.2-.5-.5c-2.302 1.738-5.998 4.381-7.22 5.125c-1.078.656-1.64.768-2.312.656c-1.226-.204-2.363-.52-3.291-.905c-1.254-.52-1.193-2.244-.001-2.746z" /></g></svg>
                                     </button>
@@ -178,13 +185,46 @@ export default function Home() {
                             <img src={side_2} alt='side' className='md:-mt-24 -mt-12 md:w-48 w-24 float'></img>
                         </div>
 
-                        <h2 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black'>
-                            Get your <span className='text-yellow-100'>daily</span><br></br>
-                            <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
-                        </h2>
+                        <div className='lg:flex justify-center gap-16 items-center md:my-24 my-12 lg:space-y-0 space-y-8'>
+                            <div className=''>
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black lg:block hidden'>
+                                    Get <br></br> your <span className='text-yellow-100'>daily</span><br></br>
+                                    <span className='text-yellow-100'>$</span>PUMP <br></br> in <span className='text-yellow-100'>one <br></br>click</span>
+                                </h2>
 
-                        <div className='mt-12'>
-                            <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-4/12 md:w-6/12 w-full'></iframe>
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black lg:hidden block'>
+                                    Get your <span className='text-yellow-100'>daily</span><br></br>
+                                    <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
+                                </h2>
+                            </div>
+
+                            <div data-aos="fade-left" className='lg:w-1/3'>
+                                <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto w-full'></iframe>
+                            </div>
+                        </div>
+
+                        <div className='lg:flex justify-center items-start lg:space-y-0 space-y-8'>
+                            <div className=''>
+
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pb-8 shadow-black'>
+                                    OUR  <span className='text-yellow-100'>STORY</span>
+                                </h2>
+
+                                <img data-aos="zoom-in" src={story} alt='story' className='lg:w-9/12 block mx-auto'></img>
+                            </div>
+
+                            <div data-aos="fade-left" className='lg:w-1/2 text-white-100'>
+
+                                <img src={weight} alt='story' className='md:w-56 w-24 lg:-mt-12'></img>
+
+                                <p className=''>
+                                    Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                                </p>
+
+                                <p className='mt-6'>
+                                    Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.
+                                </p>
+                            </div>
                         </div>
 
                     </div>
@@ -230,20 +270,23 @@ export default function Home() {
                                 <div data-aos="fade-right" className='border-2 border-black-100 col-span-1 bg-white-50 rounded-2xl font-lilita'>
                                     <p className='text-2xl my-6'>Track $PUMP CHART:</p>
 
-                                    <div className='flex flex-col gap-y-6'>
-                                        <a href='/'>
-                                            <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
-                                                DEXTOOLS
-                                            </button>
-                                        </a>
+                                    <div className='space-y-6 block'>
 
-                                        <a href='/'>
+                                        <div>
                                             <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                                <a href='/'>
+                                                    DEXTOOLS
+                                                </a>
+                                            </button>
+                                        </div>
+
+                                        <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                            <a href='/'>
                                                 DEXSCREENER
-                                            </button>
-                                        </a>
+                                            </a>
+                                        </button>
 
-                                        <img src={chart} alt='' className='mt-6 flex mx-auto rounded-b-xl'></img>
+                                        <img src={chart} alt='' className='flex mx-auto rounded-b-xl pt-6'></img>
                                     </div>
 
                                 </div>
@@ -432,8 +475,6 @@ export default function Home() {
 
             </div>
 
-
-
             {/* roadmap section */}
 
             <img src={bubbles} className='w-full'></img>
@@ -445,17 +486,17 @@ export default function Home() {
                         <div className='lg:flex items-start justify-between lg:space-y-0 space-y-8'>
 
                             <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-12 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-12 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
                                     "Whales might splash, but
                                     $PUMP’s out here bench-pressing
                                     the entire market!”
                                 </button>
 
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12 lg:ml-32'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12 lg:ml-32'>
                                     $PUMP for Crypto Gains
                                 </button>
 
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-8 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-8 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:-rotate-12'>
                                     $PUMP YOUR PORTFOLIO
                                 </button>
                             </div>
@@ -465,17 +506,17 @@ export default function Home() {
                             </div>
 
                             <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight rotate-30 lg:-translate-x-12'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight rotate-30 lg:-translate-x-12'>
                                     Don’t wait for the dip—#PUMP’s
                                     already out here benching the
                                     charts!
                                 </button>
 
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-6'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-6'>
                                     Lifting $PUMP to the Moon
                                 </button>
 
-                                <button className='bg-blue-100 border-4 border-blue-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12'>
+                                <button className='bg-blue-100 border-4 border-yellow-50 py-3 px-5 text-white-100 rounded-full font-medium text-sm font-fredoka leading-tight lg:rotate-12'>
                                     Bear the weight, enjoy the $pump
                                 </button>
                             </div>
@@ -503,7 +544,7 @@ export default function Home() {
                                         <p className='text-yellow-100'>(PRE-LAUNCH)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
+                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>Presale: Launch $PUMP token with
@@ -531,7 +572,7 @@ export default function Home() {
                                         </p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
+                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>CEX Listings: List on mid-tier centralized exchanges to increase accessibility and
@@ -580,7 +621,7 @@ export default function Home() {
                                             REFINEMENT)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96'>
+                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>Tier-1 CEX Listings: Secure listings on
@@ -600,11 +641,11 @@ export default function Home() {
 
                                     <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
                                         <h3>SHREDDING PHASE</h3>
-                                        <p className='text-yellow-100 leading-snug'>(MARKET PENETRATION<br></br>
+                                        <p className='text-yellow-100 leading-snug'>(MARKET PENETRATION,<br></br>
                                             AND EXPANSION)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-white-100 rounded-3xl p-5 bg-black-100 md:w-96 flex mx-auto'>
+                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96 flex mx-auto'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>$PUMP App Launch (Launch a
@@ -651,7 +692,7 @@ export default function Home() {
 
                         <div className='lg:w-1/2 text-center'>
                             <h3 className='md:text-7xl text-4xl font-wedges text-yellow-100 shadow-black'>
-                                PUMPONOMICS
+                                PUMPENOMICS
                             </h3>
 
                             <div className='space-y-8 md:mt-8 mt-5'>
@@ -716,16 +757,16 @@ export default function Home() {
                             </h3>
 
                             <div className='flex flex-wrap items-center gap-3 font-wedges'>
-                                <a href='https://t.me/ProteinPortal'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                <a href=' https://t.me/pumpbysol'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl tracking-wide'>
+                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl tracking-wide'>
                                     BUY $PUMP
                                 </button>
-                                <a href='https://x.com/ProteinCoinSol'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-blue-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                <a href='https://x.com/pumpbysol'>
+                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         X | TWITTER
                                     </button>
                                 </a>
@@ -743,8 +784,8 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className='lg:flex mx-auto -mt-12 hidden'>
-                        <img src={join6} alt='' className='w-full'></img>
+                    <div className=''>
+                        <Slide />
                     </div>
 
                     <div>
@@ -774,14 +815,13 @@ export default function Home() {
                                 <Accordion title={title} content={content} />
                             ))}
                         </div>
-
                     </div>
 
                 </div>
 
+                <Footer />
             </div>
 
-            <Footer />
         </div>
     )
 }

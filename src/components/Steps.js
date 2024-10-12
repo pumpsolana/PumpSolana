@@ -82,7 +82,7 @@ export default function Steps() {
                 <h3 className="md:text-4xl text-2xl leading-relaxed">You ready for some<br></br>
                     gains</h3>
                 <div className="lg:block hidden">
-                    <img src={step4} alt="" className="flex mx-auto w-1/3"></img>
+                    <img src={step4} alt="" className="flex mx-auto w-1/4"></img>
                 </div>
                 <p className="md:text-3xl text-xl">
                     Now that you grabbed some
@@ -90,6 +90,7 @@ export default function Steps() {
                 </p>
 
             </div>
+
         </Slider>
     );
 }
