@@ -29,13 +29,13 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <div className='flex md:gap-x-16 gap-x-8 md:my-5 items-center'>
+          <div className='flex gap-x-8 md:my-5 items-center'>
             <a href='https://x.com/pumpbysol'>
-              <img src={twitter} alt='twitter' className=''></img>
+              <i className='fa fa-twitter text-5xl text-blue-25 hover:text-yellow-50 duration-100'></i>
             </a>
 
             <a href='https://t.me/pumpbysol'>
-              <img src={telegram} alt='telegram' className=''></img>
+              <i className='fa fa-telegram text-5xl text-blue-25 hover:text-yellow-50 duration-100'></i>
             </a>
           </div>
 

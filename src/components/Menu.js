@@ -26,10 +26,10 @@ export default function Menu() {
 
         <nav>
           <ul className="text-xxl flex justify-center gap-16 items-center capitalize">
-            <li><a href="#explore" className="duration-100 shadow-gold">Explore</a></li>
-            <li><a href="#benefits" className="duration-100 shadow-gold">Benefits</a></li>
-            <li><a href="#roadmap" className="duration-100  shadow-gold">Roadmap</a></li>
-            <li><a href="#tokenomics" className=" duration-100 shadow-gold">Pumpenomics</a></li>
+            <li><a href="#explore" className="duration-100 hover:text-yellow-100 hover:text-2xl">Explore</a></li>
+            <li><a href="#benefits" className="duration-100 hover:text-yellow-100 hover:text-2xl">Benefits</a></li>
+            <li><a href="#roadmap" className="duration-100  hover:text-yellow-100 hover:text-2xl">Roadmap</a></li>
+            <li><a href="#tokenomics" className=" duration-100 hover:text-yellow-100 hover:text-2xl">Pumpenomics</a></li>
           </ul>
         </nav>
 

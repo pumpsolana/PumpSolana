@@ -31,7 +31,8 @@ import token1 from '../assets/token1.png';
 import gym from '../assets/gym.png';
 import window from '../assets/window.png';
 import weight from '../assets/weight.png';
-import clock from '../assets/clock.png';
+import clock from '../assets/clock.svg';
+import clock1 from '../assets/clock1.png';
 import video from '../assets/video.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
@@ -127,7 +128,7 @@ export default function Home() {
                     <div className="lg:flex block justify-center items-start pb-8 lg:space-y-0 space-y-6">
 
                         <div className='text-center -rotate-30 lg:w-1/2'>
-                            <div className='md:text-8xl text-6xl text-center text-blue-50 font-wedges md:space-y-8 space-y-6 lg:mt-32 shadow-black shadow-black'>
+                            <div className='md:text-8xl text-6xl text-center text-blue-50 font-wedges md:space-y-8 space-y-6 lg:mt-32 text-outline text-outline'>
                                 <h1 className=''>
                                     <span className='text-yellow-100'>$</span>PUMP
                                 </h1>
@@ -180,19 +181,20 @@ export default function Home() {
                 <div className='container mx-auto'>
                     <div className="lg:pb-20 py-6">
 
-                        <div className='flex justify-between items-end'>
-                            <img src={side_1} alt='side' className='md:w-56 w-28'></img>
-                            <img src={side_2} alt='side' className='md:-mt-24 -mt-12 md:w-48 w-24 float'></img>
+                        <div className='flex justify-between items-end translate-y-9'>
+                            <img src={side_1} alt='side' className='md:w-56 w-28 float'></img>
+                            <img src={side_2} alt='side' className='md:w-56 w-24 float'></img>
                         </div>
 
-                        <div className='lg:flex justify-center gap-16 items-center md:my-24 my-12 lg:space-y-0 space-y-8'>
+                        <div className='lg:flex justify-center gap-16 items-center md:mb-24 mb-12 lg:space-y-0 space-y-8'>
+
                             <div className=''>
-                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black lg:block hidden'>
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline lg:block hidden'>
                                     Get <br></br> your <span className='text-yellow-100'>daily</span><br></br>
                                     <span className='text-yellow-100'>$</span>PUMP <br></br> in <span className='text-yellow-100'>one <br></br>click</span>
                                 </h2>
 
-                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 shadow-black lg:hidden block'>
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline lg:hidden block'>
                                     Get your <span className='text-yellow-100'>daily</span><br></br>
                                     <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
                                 </h2>
@@ -203,14 +205,14 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className='lg:flex justify-center items-start lg:space-y-0 space-y-8'>
+                        <div className='lg:flex justify-center items-start lg:space-y-0 space-y-8 lg:py-20 pt-6'>
                             <div className=''>
 
-                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pb-8 shadow-black'>
+                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pb-8 text-outline'>
                                     OUR  <span className='text-yellow-100'>STORY</span>
                                 </h2>
 
-                                <img data-aos="zoom-in" src={story} alt='story' className='lg:w-9/12 block mx-auto'></img>
+                                <img data-aos="zoom-in" src={story} alt='story' className='lg:w-9/12 block mx-auto rounded-md'></img>
                             </div>
 
                             <div data-aos="fade-left" className='lg:w-1/2 text-white-100'>
@@ -231,7 +233,7 @@ export default function Home() {
 
                     <div id='explore' className="lg:pb-16 py-6">
 
-                        <h3 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges shadow-black'>
+                        <h3 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges text-outline'>
                             GET STARTED WITH <span className='text-yellow-100'>$</span>PUMP
                         </h3>
 
@@ -240,20 +242,20 @@ export default function Home() {
                             <div className='grid lg:grid-cols-3 grid-cols-1 justify-center gap-3'>
 
                                 <div data-aos="fade-right" className='lg:col-span-2 py-3 px-12 bg-blue-50 border-2 border-black-100 rounded-2xl text-white-100'>
-                                    <p className='text-center md:text-3xl text-xl lg:mt-12 shadow-black'>
+                                    <p className='text-center md:text-3xl text-xl lg:mt-12'>
                                         Use your Phantom wallet and connect to Raydium or Jupiter to buy <span className='text-yellow-100'>$</span>PUMP
                                     </p>
                                 </div>
 
-                                <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-4'>
-                                    <p className='font-wedges text-2xl'>Smart contract address:</p>
+                                <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-3'>
+                                    <p className='font-wedges text-xl'>Smart contract address:</p>
                                     <p>
                                         ED5wbeyAYtLM4WRGnohP
                                         xJEwniaikEFioVmJyZH6K31m
                                     </p>
 
                                     <div className="">
-                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-3 px-7 hover:bg-blue-50 shadow-btn'>
+                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
                                             <img src={copy} alt='copy' className=''></img>
                                         </button>
 
@@ -273,20 +275,20 @@ export default function Home() {
                                     <div className='space-y-6 block'>
 
                                         <div>
-                                            <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                            <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
                                                 <a href='/'>
                                                     DEXTOOLS
                                                 </a>
                                             </button>
                                         </div>
 
-                                        <button className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 text-white-100 duration-150 hover:scale-125 shadow-btn'>
+                                        <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
                                             <a href='/'>
                                                 DEXSCREENER
                                             </a>
                                         </button>
 
-                                        <img src={chart} alt='' className='flex mx-auto rounded-b-xl pt-6'></img>
+                                        <img src={chart} alt='' className='flex mx-auto rounded-b-xl pt-6 w-9/12'></img>
                                     </div>
 
                                 </div>
@@ -314,11 +316,11 @@ export default function Home() {
                         </div>
 
                         <div className='lg:w-6/12 lg:space-y-8 space-y-6'>
-                            <h3 className='md:text-7xl sm:text-5xl text-4xl font-lilita shadow-black'>
+                            <h3 className='md:text-7xl sm:text-5xl text-4xl font-lilita text-outline'>
                                 WHY $PUMP?
                             </h3>
 
-                            <p data-aos="fade-up" className='md:text-2xl text-lg leading-relaxed font-fredoka font-semibold md:px-16 px-6 shadow-sm shadow-black'>
+                            <p data-aos="fade-up" className='md:text-2xl text-lg leading-relaxed font-fredoka font-semibold md:px-16 px-6'>
                                 $PUMP is the overconfident,
                                 muscle-bound chart-mover whoflexes his way through the crypto
                                 world. Sporting a purple bandana with his name emblazoned across it and a belt featuring the Solana
@@ -335,10 +337,10 @@ export default function Home() {
                                 <img src={why1} alt='' className='w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 text-outline'>
                                         CEX LISTINGS:
                                     </h5>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         We've secured pre-agreed listings on
                                         multiple CEXes to ensure $PUMP is
                                         tradable right on time.
@@ -350,10 +352,10 @@ export default function Home() {
                                 <img src={why2} alt='' className='w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 text-outline'>
                                         Our Unique PUMP NFTs
                                     </h5>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         Our exclusive $PUMP-themed
                                         NFTs are more than just
                                         collectibles; they’re your gateway
@@ -375,10 +377,10 @@ export default function Home() {
                                 <img src={why3} alt='' className='w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 text-outline'>
                                         PLAY 2 EARN
                                     </h5>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         Challenge your skills and earn
                                         rewards with $PUMP mini-games.
                                         These games are designed to be
@@ -393,10 +395,10 @@ export default function Home() {
                                 <img src={why4} alt='' className='w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 text-outline'>
                                         PUMP 2 EARN
                                     </h5>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         Get rewarded for helping boost the
                                         $PUMP ecosystem! Similar to
                                         social mining, every action you
@@ -420,14 +422,14 @@ export default function Home() {
                                 <img src={why5} alt='' className='w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita text-outline'>
                                         GET REWARDED
                                     </h5>
-                                    <h6 className='md:text-2xl text-xl font-lilita font-medium mb-5 shadow-black'>
+                                    <h6 className='md:text-2xl text-xl font-lilita font-medium mb-5 text-outline'>
                                         Get Rewarded for Sharing the
                                         $PUMP
                                     </h6>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         Partner with $PUMP and help drive
                                         the excitement by sharing your
                                         journey with the community. Post
@@ -450,10 +452,10 @@ export default function Home() {
                                 <img src={why6} alt='' className='rounded-3xl h-72 object-cover w-full'></img>
 
                                 <div className='px-5 py-5'>
-                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 shadow-black'>
+                                    <h5 className='md:text-4xl text-2xl font-lilita mb-5 text-outline'>
                                         GYM MERCH
                                     </h5>
-                                    <p className='font-fredoka font-semibold leading-tight text-shadow'>
+                                    <p className='font-fredoka font-semibold leading-tight'>
                                         Flex in the market with our
                                         exclusive $PUMP-themed merch
                                         that’s as strong as your portfolio!
@@ -522,29 +524,33 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div id='roadmap' data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 shadow-black'>
-                            <h3 className='text-10xl'>
-                                <span className='text-yellow-100'>$</span>PUMP
-                            </h3>
-                            <h3 className='text-10xl'>
-                                Roadmap
-                            </h3>
+                        <div id='roadmap' data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 text-outline flex items-center justify-center'>
+                            <div>
+                                <h3 className='text-8xl'>
+                                    <span className='text-yellow-100'>$</span>PUMP
+                                </h3>
+                                <h3 className='text-8xl'>
+                                    Roadmap
+                                </h3>
+                            </div>
+
+                            <img src={clock1} alt='' className='w-48'></img>
                         </div>
 
                         <div className="lg:flex block justify-center items-start gap-x-12 lg:pt-32 pt-12 pb-20 md:space-y-0 space-y-8">
 
-                            <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
+                            <div className="lg:w-1/2 w-full space-y-12 flex flex-col justify-center items-center mx-auto">
 
-                                <div className='text-white-100 space-y-8'>
+                                <div data-aos="fade-up" className='text-white-100 space-y-6'>
 
-                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-4 shadow-black'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-4 text-outline'>
                                         <h3 className=''>
                                             FOUNDATION PHASE
                                         </h3>
                                         <p className='text-yellow-100'>(PRE-LAUNCH)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>Presale: Launch $PUMP token with
@@ -561,8 +567,8 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div className='text-white-100 space-y-8'>
-                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                <div data-aos="fade-up" data-aos-delay="350" className='text-white-100 space-y-6'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 text-outline'>
                                         <h3 className=''>
                                             BULKING PHASE
                                         </h3>
@@ -572,7 +578,7 @@ export default function Home() {
                                         </p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>CEX Listings: List on mid-tier centralized exchanges to increase accessibility and
@@ -587,20 +593,20 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div className='text-white-100 space-y-8'>
+                                <div data-aos="fade-up" className='text-white-100 space-y-6'>
 
-                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 text-outline'>
                                         <h3 className=''>
                                             MR. OLYMPIA PHASE
                                         </h3>
                                         <p className='text-yellow-100'>(ULTIMATE DOMINATION)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
 
                                         <img src={lock} alt='lock' className='flex mx-auto mb-5 w-20'></img>
 
-                                        <h3 className='md:text-4xl text-3xl font-wedges text-center lg:leading-snug text-yellow-100 shadow-black'>
+                                        <h3 className='md:text-4xl text-3xl font-wedges text-center lg:leading-snug text-yellow-100 text-outline'>
                                             WILL BE UNLOCKED<br></br>
                                             AT 50M CAP
                                         </h3>
@@ -609,19 +615,19 @@ export default function Home() {
 
                             </div>
 
-                            <div className="lg:w-1/2 w-full space-y-8 flex flex-col justify-center items-center mx-auto">
+                            <div className="lg:w-1/2 w-full space-y-16 flex flex-col justify-center items-center mx-auto">
 
-                                <div className='text-white-100 md:space-y-12 space-y-6'>
+                                <div data-aos="fade-up" data-aos-delay="350" className='text-white-100 space-y-6'>
 
                                     <img src={dumbell1} alt='dumbell' className='flex mx-auto w-1/2'></img>
 
-                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 text-outline'>
                                         <h3>  CUTTING PHASE</h3>
                                         <p className='text-yellow-100 leading-snug'>(OPTIMISATION AND<br></br>
                                             REFINEMENT)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>Tier-1 CEX Listings: Secure listings on
@@ -635,17 +641,17 @@ export default function Home() {
                                 </div>
 
 
-                                <div className='text-white-100 md:space-y-12 space-y-6'>
+                                <div data-aos="fade-up" data-aos-delay="350" className='text-white-100 space-y-6'>
 
                                     <img src={dumbell2} alt='dumbell' className='flex mx-auto w-1/2'></img>
 
-                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 shadow-black'>
+                                    <div className='md:text-4xl text-3xl font-wedges text-center space-y-3 text-outline'>
                                         <h3>SHREDDING PHASE</h3>
                                         <p className='text-yellow-100 leading-snug'>(MARKET PENETRATION,<br></br>
                                             AND EXPANSION)</p>
                                     </div>
 
-                                    <div data-aos="slide-up" className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96 flex mx-auto'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-5 bg-blue-200 md:w-96 flex mx-auto'>
 
                                         <ul className='list-disc pl-4'>
                                             <li>$PUMP App Launch (Launch a
@@ -691,34 +697,34 @@ export default function Home() {
                         </div>
 
                         <div className='lg:w-1/2 text-center'>
-                            <h3 className='md:text-7xl text-4xl font-wedges text-yellow-100 shadow-black'>
+                            <h3 className='md:text-7xl text-4xl font-wedges text-yellow-100 text-outline'>
                                 PUMPENOMICS
                             </h3>
 
                             <div className='space-y-8 md:mt-8 mt-5'>
-                                <p className='md:text-6xl text-4xl font-wedges text-white-100 shadow-black'>
+                                <p className='md:text-6xl text-4xl font-wedges text-white-100 text-outline'>
                                     1,000,000,000
                                 </p>
-                                <p className='md:text-4xl text-2xl font-wedges text-black-100 shadow-white'>
+                                <p className='md:text-4xl text-2xl font-wedges text-black-100 '>
                                     Total Supply:
                                 </p>
                             </div>
 
                             <div className='flex items-center justify-center mt-12 md:gap-x-16 gap-x-8'>
                                 <div className='md:space-y-8 space-y-5'>
-                                    <p className='md:text-5xl text-3xl font-wedges text-white-100 shadow-black'>
+                                    <p className='md:text-5xl text-3xl font-wedges text-white-100 text-outline'>
                                         $PUMP
                                     </p>
-                                    <p className='md:text-3xl text-xl font-wedges text-black-100 shadow-white'>
+                                    <p className='md:text-3xl text-xl font-wedges text-black-100 '>
                                         Token Ticker
                                     </p>
                                 </div>
 
                                 <div className='md:space-y-8 space-y-5'>
-                                    <p className='md:text-5xl text-3xl font-wedges text-white-100 shadow-black'>
+                                    <p className='md:text-5xl text-3xl font-wedges text-white-100 text-outline'>
                                         Solana
                                     </p>
-                                    <p className='md:text-3xl text-xl font-wedges text-black-100 shadow-white'>
+                                    <p className='md:text-3xl text-xl font-wedges text-black-100 '>
                                         Network
                                     </p>
                                 </div>
@@ -751,22 +757,22 @@ export default function Home() {
                     <div className='lg:flex items-start justify-between'>
 
                         <div className='md:space-y-12 space-y-6 lg:w-1/2'>
-                            <h3 className='md:text-8xl text-4xl font-wedges text-blue-50 shadow-black'>
+                            <h3 className='md:text-8xl text-4xl font-wedges text-blue-50 text-outline'>
                                 JOIN <span className='text-yellow-100'>$</span>PUMP
                                 NOW
                             </h3>
 
                             <div className='flex flex-wrap items-center gap-3 font-wedges'>
                                 <a href=' https://t.me/pumpbysol'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                    <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl tracking-wide'>
+                                <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl tracking-wide'>
                                     BUY $PUMP
                                 </button>
                                 <a href='https://x.com/pumpbysol'>
-                                    <button className='shadow-btn hover:bg-blue-50 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                    <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         X | TWITTER
                                     </button>
                                 </a>
@@ -784,7 +790,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className=''>
+                    <div className='pt-6'>
                         <Slide />
                     </div>
 
@@ -803,7 +809,7 @@ export default function Home() {
 
                     <div className='lg:w-8/12 flex flex-col mx-auto'>
                         <div className='md:flex items-center justify-center'>
-                            <h3 data-aos="fade-up" className='md:text-8xl text-4xl font-wedges text-blue-50 uppercase text-center shadow-black'>
+                            <h3 data-aos="fade-up" className='md:text-8xl text-4xl font-wedges text-blue-50 uppercase text-center text-outline'>
                                 need some answers
                             </h3>
 
