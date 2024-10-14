@@ -5,7 +5,7 @@ const Accordion = ({ title, content }) => {
 
     return (
         <div className="accordion-item py-4 px-5 cursor-pointer font-fredoka group">
-            <div className="accordion-title flex justify-between items-center gap-4" onClick={() => setIsActive(!isActive)}>
+            <div className="accordion-title flex justify-between items-start gap-4" onClick={() => setIsActive(!isActive)}>
 
                 <div className='font-semibold lg:text-xl pb-4 group-hover:text-yellow-100 group-hover:scale-105 duration-150'>
                     {title}

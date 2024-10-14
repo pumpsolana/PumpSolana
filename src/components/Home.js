@@ -526,15 +526,15 @@ export default function Home() {
 
                         <div id='roadmap' data-aos="zoom-in" className='text-center font-wedges text-white-100 lg:pt-32 pt-12 text-outline flex items-center justify-center'>
                             <div>
-                                <h3 className='text-8xl'>
+                                <h3 className='md:text-8xl text-5xl'>
                                     <span className='text-yellow-100'>$</span>PUMP
                                 </h3>
-                                <h3 className='text-8xl'>
+                                <h3 className='md:text-8xl text-5xl'>
                                     Roadmap
                                 </h3>
                             </div>
 
-                            <img src={clock1} alt='' className='w-48'></img>
+                            <img src={clock1} alt='' className='md:w-48 w-20'></img>
                         </div>
 
                         <div className="lg:flex block justify-center items-start gap-x-12 lg:pt-32 pt-12 pb-20 md:space-y-0 space-y-8">
