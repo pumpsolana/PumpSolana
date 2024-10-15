@@ -135,6 +135,23 @@ html {
   animation: flicker 1s ease-in-out infinite alternate;
 }
 
+.box-shine {
+  box-shadow: 6px 6px 12px #9221ee;
+  animation: shine 1s ease-in-out infinite alternate;
+}
+
+@keyframes shine {
+
+  from {
+    box-shadow:
+      8px 8px 8px #a030fd,
+  }
+
+  to {
+    box-shadow: none;
+  }
+}
+
 @keyframes flicker {
 
   from {

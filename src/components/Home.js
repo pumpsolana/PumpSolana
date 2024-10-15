@@ -181,7 +181,7 @@ export default function Home() {
                 <div className='container mx-auto'>
                     <div className="lg:pb-20 py-6">
 
-                        <div className='flex justify-between items-end translate-y-9'>
+                        <div className='flex justify-between items-end -translate-y-6'>
                             <img src={side_1} alt='side' className='md:w-56 w-28 float'></img>
                             <img src={side_2} alt='side' className='md:w-56 w-24 float'></img>
                         </div>
@@ -209,7 +209,7 @@ export default function Home() {
                             <div className=''>
 
                                 <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pb-8 text-outline'>
-                                    OUR  <span className='text-yellow-100'>STORY</span>
+                                    Who is   <span className='text-yellow-100'>$PUMP?</span>
                                 </h2>
 
                                 <img data-aos="zoom-in" src={story} alt='story' className='lg:w-9/12 block mx-auto rounded-md'></img>
@@ -220,11 +220,15 @@ export default function Home() {
                                 <img src={weight} alt='story' className='md:w-56 w-24 lg:-mt-12'></img>
 
                                 <p className=''>
-                                    Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                                    $PUMP is the secret force behind the rise of all those famous dog and cat memecoins you know today. While Doge, Shiba, Neiro, and the rest were grabbing the headlines, it was $PUMP who trained them into shape, pushing them through late-night sessions in a hidden dojo in the mountains of Kyoto. Every green candle, every pump—$PUMP was there, building their strength and turning them into the market movers they are today.
                                 </p>
 
                                 <p className='mt-6'>
-                                    Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.
+                                    Now, it’s time for $PUMP to step into the spotlight. The days of working behind the scenes are over. $PUMP isn’t just a token; it’s the trainer of the market, ready to flex for itself. Built on Solana, $PUMP is here to show that true gains come from hard work, discipline, and a relentless drive to pump the charts.
+                                </p>
+
+                                <p className='mt-6'>
+                                    The world wondered why those dog and cat coins kept pumping—now they’ll know the truth. It’s time to reveal the trainer, the legend, the one who lifts markets and builds memes into muscle: $PUMP. Join the movement and let’s show everyone how real pumps are made.
                                 </p>
                             </div>
                         </div>
@@ -255,8 +259,8 @@ export default function Home() {
                                     </p>
 
                                     <div className="">
-                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-50 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
-                                            <img src={copy} alt='copy' className=''></img>
+                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-200 shadow-btn border-4 border-yellow-100 hover:border-black-100 text-white-100 hover:text-yellow-100'>
+                                            <i className='fa fa-copy text-3xl'></i>
                                         </button>
 
                                         <span className="text-black-100 absolute duration-300 ml-2 translate-y-4 text-sm">
@@ -329,6 +333,10 @@ export default function Home() {
                             </p>
                         </div>
                     </div> */}
+
+                    <h3 className='md:text-7xl sm:text-5xl text-4xl font-lilita text-outline text-center pt-8 uppercase'>
+                        Pumpementals
+                    </h3>
 
                     <div className='md:my-20 my-8'>
                         <div className='grid md:grid-cols-3 grid-cols-1 md:grid-rows-2 grid-rows-1 items-top justify-center gap-5'>
@@ -602,7 +610,7 @@ export default function Home() {
                                         <p className='text-yellow-100'>(ULTIMATE DOMINATION)</p>
                                     </div>
 
-                                    <div className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100'>
+                                    <div className='border-8 border-yellow-100 rounded-3xl p-6 bg-black-100 box-shine'>
 
                                         <img src={lock} alt='lock' className='flex mx-auto mb-5 w-20'></img>
 
