@@ -33,7 +33,7 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <button className='bg-blue-200 border-4 border-yellow-50 py-2 px-5 text-white-100 hover:text-yellow-50 rounded-2xl hover:bg-blue-200 hover:border-blue-200 duration-150 text-xxl shadow-btn'>
+        <button className='bg-blue-200 border-4 border-yellow-50 py-2 px-5 text-white-100 hover:text-yellow-50 rounded-2xl hover:bg-blue-200 hover:border-blue-50 duration-150 text-xxl shadow-btn'>
           BUY $PUMP
         </button>
 

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import protein_couch from '../assets/protein_couch.png';
-import protein from '../assets/protein.png';
 import mark from '../assets/mark.png';
 import join from '../assets/join.png';
 import top from '../assets/top.gif';
@@ -24,7 +23,6 @@ import chart from '../assets/chart.png';
 import cloud1 from '../assets/cloud1.png';
 import cloud2 from '../assets/cloud2.png';
 import tick from '../assets/tick.png';
-import copy from '../assets/copy.png';
 import bubbles from '../assets/bubbles.png';
 import dumbell3 from '../assets/dumbell3.png';
 import token1 from '../assets/token1.png';
@@ -259,7 +257,7 @@ export default function Home() {
                                     </p>
 
                                     <div className="">
-                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-200 shadow-btn border-4 border-yellow-100 hover:border-black-100 text-white-100 hover:text-yellow-100'>
+                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-200 shadow-btn border-4 border-yellow-100 hover:border-blue-50 text-white-100 hover:text-yellow-100'>
                                             <i className='fa fa-copy text-3xl'></i>
                                         </button>
 
@@ -279,14 +277,14 @@ export default function Home() {
                                     <div className='space-y-6 block'>
 
                                         <div>
-                                            <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
+                                            <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-blue-50'>
                                                 <a href='/'>
                                                     DEXTOOLS
                                                 </a>
                                             </button>
                                         </div>
 
-                                        <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-black-100'>
+                                        <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-blue-50'>
                                             <a href='/'>
                                                 DEXSCREENER
                                             </a>
@@ -772,15 +770,15 @@ export default function Home() {
 
                             <div className='flex flex-wrap items-center gap-3 font-wedges'>
                                 <a href=' https://t.me/pumpbysol'>
-                                    <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                    <button className='shadow-btn bg-blue-200 border-4 border-yellow-50 hover:border-blue-50 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         Telegram
                                     </button>
                                 </a>
-                                <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl tracking-wide'>
+                                <button className='shadow-btn bg-blue-200 border-4 border-yellow-50 hover:border-blue-50 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl tracking-wide'>
                                     BUY $PUMP
                                 </button>
                                 <a href='https://x.com/pumpbysol'>
-                                    <button className='shadow-btn hover:bg-white-100 bg-blue-200 border-4 border-yellow-50 hover:border-blue-200 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
+                                    <button className='shadow-btn bg-blue-200 border-4 border-yellow-50 hover:border-blue-50 py-2 px-4 text-white-100 hover:text-yellow-100 rounded-2xl md:tracking-wide md:text-base text-sm'>
                                         X | TWITTER
                                     </button>
                                 </a>

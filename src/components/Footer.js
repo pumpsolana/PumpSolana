@@ -22,20 +22,20 @@ export default function Footer() {
 
           <nav>
             <ul className="text-xl flex flex-wrap justify-center md:gap-16 gap-6 items-center capitalize font-lilita">
-              <li><a href="#explore" className="">Explore</a></li>
-              <li><a href="#benefits" className="">Benefits</a></li>
-              <li><a href="#roadmap" className="">Roadmap</a></li>
-              <li><a href="#tokenomics" className="">Pumpenomics</a></li>
+              <li><a href="#explore" className="text-blue-50 hover:text-yellow-50">Explore</a></li>
+              <li><a href="#benefits" className="text-blue-50 hover:text-yellow-50">Benefits</a></li>
+              <li><a href="#roadmap" className="text-blue-50 hover:text-yellow-50">Roadmap</a></li>
+              <li><a href="#tokenomics" className="text-blue-50 hover:text-yellow-50">Pumpenomics</a></li>
             </ul>
           </nav>
 
           <div className='flex gap-x-8 md:my-5 items-center'>
             <a href='https://x.com/pumpbysol'>
-              <i className='fa fa-twitter text-5xl text-blue-25 hover:text-yellow-50 duration-100'></i>
+              <svg className='block mx-auto' xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 24 24"><path fill="#b558ff" d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z" /></svg>
             </a>
 
             <a href='https://t.me/pumpbysol'>
-              <i className='fa fa-telegram text-5xl text-blue-25 hover:text-yellow-50 duration-100'></i>
+              <i className='fa fa-telegram text-5xl text-yellow-50 duration-100'></i>
             </a>
           </div>
 
