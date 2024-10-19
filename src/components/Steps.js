@@ -86,7 +86,7 @@ export default function Steps() {
                 </div>
                 <p className="md:text-3xl text-xl">
                     Now that you grabbed some
-                    $pump. Lets work our gains
+                    $pump. Lets work for our gains
                 </p>
 
             </div>

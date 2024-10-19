@@ -4,7 +4,7 @@ import Menu from './Menu'
 import protein_couch from '../assets/protein_couch.png';
 import mark from '../assets/mark.png';
 import join from '../assets/join.png';
-import top from '../assets/top.gif';
+import top from '../assets/top1.gif';
 import why1 from '../assets/why1.png';
 import why2 from '../assets/why2.png';
 import why3 from '../assets/why3.png';
@@ -123,7 +123,7 @@ export default function Home() {
                         <Menu />
                     </div>
 
-                    <div className="lg:flex block justify-center items-start pb-8 lg:space-y-0 space-y-6">
+                    <div className="lg:flex block justify-center items-start pb-12 lg:space-y-0 space-y-6">
 
                         <div className='text-center -rotate-30 lg:w-1/2'>
                             <div className='md:text-8xl text-6xl text-center text-blue-50 font-wedges md:space-y-8 space-y-6 lg:mt-32 text-outline text-outline'>
@@ -184,23 +184,16 @@ export default function Home() {
                             <img src={side_2} alt='side' className='md:w-56 w-24 float'></img>
                         </div>
 
-                        <div className='lg:flex justify-center gap-16 items-center md:mb-24 mb-12 lg:space-y-0 space-y-8'>
+                        <div className='md:mb-16 mb-8'>
+                            <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline'>
+                                Get your <span className='text-yellow-100'>daily</span><br></br>
+                                <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
+                            </h2>
+                        </div>
 
-                            <div className=''>
-                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline lg:block hidden'>
-                                    Get <br></br> your <span className='text-yellow-100'>daily</span><br></br>
-                                    <span className='text-yellow-100'>$</span>PUMP <br></br> in <span className='text-yellow-100'>one <br></br>click</span>
-                                </h2>
 
-                                <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline lg:hidden block'>
-                                    Get your <span className='text-yellow-100'>daily</span><br></br>
-                                    <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
-                                </h2>
-                            </div>
-
-                            <div data-aos="fade-left" className='lg:w-1/3'>
-                                <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto w-full'></iframe>
-                            </div>
+                        <div data-aos="fade-left" className=''>
+                            <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-1/3 w-full'></iframe>
                         </div>
 
                         <div className='lg:flex justify-center items-start lg:space-y-0 space-y-8 lg:py-20 pt-6'>
@@ -332,7 +325,7 @@ export default function Home() {
                         </div>
                     </div> */}
 
-                    <h3 className='md:text-7xl sm:text-5xl text-4xl font-lilita text-outline text-center pt-8 uppercase'>
+                    <h3 className='md:text-7xl sm:text-5xl text-4xl font-wedges purple-outline text-center pt-8 uppercase'>
                         Pumpementals
                     </h3>
 
