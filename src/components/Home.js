@@ -175,25 +175,27 @@ export default function Home() {
 
             <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full xl:-translate-y-32 lg:-translate-y-28 md:-translate-y-16 -translate-y-8' />
 
-            <div className="lg:px-20 px-5 bg-blue-25 relative z-20 -mt-2">
+            <div className="lg:px-20 px-5 bg-blue-25 -mt-2">
                 <div className='container mx-auto'>
                     <div className="lg:pb-20 py-6">
 
-                        <div className='flex justify-between items-end -translate-y-6'>
-                            <img src={side_1} alt='side' className='md:w-56 w-28 float'></img>
-                            <img src={side_2} alt='side' className='md:w-56 w-24 float'></img>
-                        </div>
+                        <div className=''>
+                            <div className='flex justify-between items-end'>
+                                <img src={side_1} alt='side' className='md:w-64 w-28 float'></img>
+                                <img src={side_2} alt='side' className='md:w-64 w-24 float'></img>
+                            </div>
 
-                        <div className='md:mb-16 mb-8'>
-                            <h2 data-aos="fade-right" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline'>
-                                Get your <span className='text-yellow-100'>daily</span><br></br>
-                                <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
-                            </h2>
-                        </div>
+                            <div className='md:mb-16 mb-8'>
+                                <h2 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline'>
+                                    Get your <span className='text-yellow-100'>daily</span><br></br>
+                                    <span className='text-yellow-100'>$</span>PUMP in <span className='text-yellow-100'>one click</span>
+                                </h2>
+                            </div>
 
 
-                        <div data-aos="fade-left" className=''>
-                            <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-1/3 w-full'></iframe>
+                            <div data-aos="fade-in" className=''>
+                                <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-1/3 w-full'></iframe>
+                            </div>
                         </div>
 
                         <div className='lg:flex justify-center items-start lg:space-y-0 space-y-8 lg:py-20 pt-6'>
@@ -325,7 +327,7 @@ export default function Home() {
                         </div>
                     </div> */}
 
-                    <h3 className='md:text-7xl sm:text-5xl text-4xl font-wedges purple-outline text-center pt-8 uppercase'>
+                    <h3 className='md:text-7xl sm:text-5xl text-4xl font-wedges text-outline text-yellow-50 text-center pt-8 uppercase'>
                         Pumpementals
                     </h3>
 
@@ -794,7 +796,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <img src={video} alt='' className='flex mx-auto md:mt-12 mt-8 lg:w-8/12'></img>
+                        <img src={video} alt='' className='flex mx-auto lg:w-11/12'></img>
                     </div>
 
                 </div>
