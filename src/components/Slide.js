@@ -21,7 +21,8 @@ export default function Slide() {
         autoplaySpeed: 0,
         speed: 3000,
         pauseOnHover: false,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        arrows: false
     };
     return (
         <Slider {...settings}>
