@@ -35,8 +35,10 @@ import video from '../assets/video.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Steps from './Steps';
-import Slide from './Slide';
+import Steps from './Steps.js';
+import Slide from './Slide.js';
+import Top from './Marquee.js';
+
 
 
 export default function Home() {
@@ -107,13 +109,7 @@ export default function Home() {
             {/* top section */}
 
             <div className='pt-2 pb-1 bg-blue-50 text-white-100 font-wedges'>
-                <marquee scrollamount="10" direction="right">
-                    <div className=' flex items-center justify-between'>
-                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
-                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
-                        <p className='md:text-2xl text-xl'>$PUMP FOR CRYPTO GAINS</p>
-                    </div>
-                </marquee>
+                <Top />
             </div>
 
             <div className="lg:px-20 px-5 bg-top">
@@ -759,8 +755,8 @@ export default function Home() {
 
                         <div className='md:space-y-12 space-y-6 lg:w-1/2'>
                             <h3 className='md:text-8xl text-4xl font-wedges text-blue-50 text-outline'>
-                                JOIN <span className='text-yellow-100'>$</span>PUMP
-                                NOW
+                                BECOME A <span className='text-yellow-100'>$</span>PUMP
+                                BRO
                             </h3>
 
                             <div className='flex flex-wrap items-center gap-3 font-wedges'>

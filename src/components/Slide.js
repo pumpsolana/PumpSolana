@@ -15,17 +15,13 @@ import slide6 from '../assets/slide6.png';
 
 export default function Slide() {
     var settings = {
-        speed: 3000,
+        slidesToShow: 5,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        arrows: false
-        // infinte: true,
-        // pauseOnFocus: false,
-        // pauseOnHover: false,
+        speed: 3000,
+        pauseOnHover: false,
+        cssEase: 'linear'
     };
     return (
         <Slider {...settings}>
