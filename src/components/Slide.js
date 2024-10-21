@@ -22,16 +22,31 @@ export default function Slide() {
         speed: 3000,
         pauseOnHover: false,
         cssEase: 'linear',
-        arrows: false
+        arrows: false,
+
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        }]
     };
     return (
         <Slider {...settings}>
-            <img src={slide1} alt='slide' className="w-1/2 p-3"></img>
-            <img src={slide2} alt='slide' className="w-1/2 p-3"></img>
-            <img src={slide3} alt='slide' className="w-1/2 p-3"></img>
-            <img src={slide4} alt='slide' className="w-1/2 p-3"></img>
-            <img src={slide5} alt='slide' className="w-1/2 p-3"></img>
-            <img src={slide6} alt='slide' className="w-1/2 p-3"></img>
+            <img src={slide1} alt='slide' className="md:w-1/2 p-3"></img>
+            <img src={slide2} alt='slide' className="md:w-1/2 p-3"></img>
+            <img src={slide3} alt='slide' className="md:w-1/2 p-3"></img>
+            <img src={slide4} alt='slide' className="md:w-1/2 p-3"></img>
+            <img src={slide5} alt='slide' className="md:w-1/2 p-3"></img>
+            <img src={slide6} alt='slide' className="md:w-1/2 p-3"></img>
         </Slider>
     );
 }
