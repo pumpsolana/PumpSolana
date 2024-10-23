@@ -66,41 +66,25 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'How do I buy $PUMP?',
-            content: `You can purchase $PUMP on leading decentralized exchanges (DEXs) that
-                       support Ethereum tokens. Ensure you have a compatible wallet and some
-                       Ethereum (ETH) to cover transaction fees.`
+            title: 'What is $PUMP and how does it work?',
+            content: `$PUMP is a chart-pumping meme token designed to drive market momentum, flexing its power to turn dips into green candles and create gains for its community.`
         },
         {
-            title: 'What can I use $PUMP for?',
-            content: `$PUMP enables seamless transactions on both decentralized and centralized
-                      exchanges, easily converting into popular cryptocurrencies. It also supports
-                      fitness-related initiatives and partnerships.`
+            title: 'How can I earn $PUMP tokens?',
+            content: `You can earn $PUMP through our Pump 2 Earn challenges, social mining, and community-driven engagement, where every contribution helps pump the market!`
         },
         {
-            title: 'How does $PUMP support the fitness community?',
-            content: `Partnering with renowned global fitness brands, $PUMP gains market credibility.
-                      As it grows in popularity, $PUMP will also support smaller fitness brands, boosting
-                      their visibility with community involvement. Additionally, $PUMP will promote
-                      fitness culture through these partnerships.`
+            title: 'What makes $PUMP different from other meme tokens?',
+            content: `Unlike traditional meme tokens, $PUMP is the behind-the-scenes trainer of the crypto world, building meme coins into market movers with its relentless focus on driving growth and rewards for holders.`
         },
         {
-            title: 'What makes the Ethereum blockchain special for $PUMP?',
-            content: `The Ethereum blockchain is known for its high-performance capabilities, offering
-                       fast transaction speeds and low fees. This ensures a seamless and enjoyable user
-                       experience for all $PUMP holders.`
+            title: 'Is there a limited supply of $PUMP?',
+            content: `Yes, $PUMP operates with a fixed total supply of 1 billion tokens, ensuring scarcity and creating more value for holders as the community grows and tokens become more valuable.`
         },
         {
-            title: 'What are the future plans for $PUMP?',
-            content: `$PUMP plans to build a loyal community through strategic planning and
-                      transparency, leveraging this strength for advantageous brand`
+            title: 'How can I get involved in the $PUMP community?',
+            content: `Join the Pump Bros by following us on social media, participating in our Pump 2 Earn challenges, and getting your hands on exclusive $PUMP NFTs to show your dedication!`
         }
-    ];
-
-    const items = [
-        { title: 'Item 1', content: 'Content for item 1' },
-        { title: 'Item 2', content: 'Content for item 2' },
-        { title: 'Item 3', content: 'Content for item 3' },
     ];
 
     return (
