@@ -776,7 +776,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <img src={video} alt='' className='flex mx-auto lg:w-11/12'></img>
+                        <img src={video} alt='' className='flex mx-auto lg:w-10/12'></img>
                     </div>
 
                 </div>
