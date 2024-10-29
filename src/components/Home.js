@@ -537,8 +537,7 @@ export default function Home() {
 
                                         <ul className='list-disc pl-4'>
                                             <li>Presale: Launch $PUMP token with
-                                                heavy presale limits (100 sol per
-                                                wallet)</li>
+                                                heavy presale limits</li>
                                             <li>List $PUMP on DEXes</li>
                                             <li>Huge Global Marketing Campaign</li>
                                             <li>CMC & CoinGecko Listing</li>
