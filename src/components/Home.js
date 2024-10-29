@@ -165,7 +165,7 @@ export default function Home() {
                                 <img src={side_2} alt='side' className='md:w-64 w-24 float'></img>
                             </div>
 
-                            <div className='md:my-16 my-8 flex items-start justify-between'>
+                            <div className='md:my-16 my-8 lg:flex items-start justify-between lg:space-y-0 space-y-8'>
                                 <div className='lg:w-1/2 w-full'>
                                     <h2 data-aos="fade-up" className='md:text-6xl text-4xl text-center text-white-100 font-wedges md:leading-relaxed lg:pt-0 pt-8 text-outline'>
                                         Get your <br></br> <span className='text-yellow-100'>daily </span>
@@ -174,7 +174,7 @@ export default function Home() {
                                 </div>
 
                                 <div data-aos="fade-in" className='lg:w-1/2 w-full'>
-                                    <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto w-7/12'></iframe>
+                                    <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="550" scrolling="no" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-7/12'></iframe>
                                 </div>
                             </div>
 

@@ -228,6 +228,10 @@ html {
     width: 170px !important;
   }
 
+  .text-outline {
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black;
+  }
 }
 
 /* sidebar styling */
