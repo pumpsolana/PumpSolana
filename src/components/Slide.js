@@ -52,64 +52,64 @@ export default function Slide() {
     };
     return (
         <Slider {...settings}>
-            <div>
-                <img src={slide1} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide1} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide2} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide2} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide3} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide3} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide4} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide4} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide5} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide5} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide6} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide6} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide7} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide7} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide8} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide8} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide9} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide9} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide10} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide10} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide11} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide11} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide12} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide12} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide13} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide13} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide14} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide14} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
-            <div>
-                <img src={slide15} alt='slide' className="border-4 border-yellow-100 p-2"></img>
+            <div className="p-2">
+                <img src={slide15} alt='slide' className="border-4 border-yellow-100"></img>
             </div>
 
         </Slider>
