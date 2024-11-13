@@ -54,6 +54,10 @@ export default function Menu() {
         <i className="fa fa-bars text-2xl"></i>
       </div>
 
+      <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1731511454049' target="_blank">
+        <img alt="dextools" src={dextools} className='h-20 w-20'></img>
+      </a>
+
       <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
         <div className='p-5'>
           <div className="lg:hidden flex items-center justify-between pb-6" onClick={ToggleSidebar}>
@@ -71,10 +75,6 @@ export default function Menu() {
               <li><a onClick={ToggleSidebar} href='#tokenomics' className="sd-link">Pumpenomics</a></li>
             </ul>
           </div>
-
-          <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1731511454049' target="_blank">
-            <img alt="dextools" src={dextools} className='h-20 w-20'></img>
-          </a>
   
         </div>
       </div>
