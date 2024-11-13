@@ -72,6 +72,10 @@ export default function Menu() {
             </ul>
           </div>
 
+          <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1731511454049' target="_blank">
+            <img alt="dextools" src={dextools} className='h-20 w-20'></img>
+          </a>
+  
         </div>
       </div>
 
