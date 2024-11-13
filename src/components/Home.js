@@ -227,11 +227,9 @@ export default function Home() {
                                 <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-3'>
                                     <p className='font-wedges text-xl'>Smart contract address:</p>
                                     <p>
-                                        TBA
-                                    </p>
 
                                     <div className="">
-                                        <button onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-200 shadow-btn border-4 border-yellow-100 hover:border-blue-50 text-white-100 hover:text-yellow-100'>
+                                        <button disabled onClick={() => copyToClipBoard('ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m')} className='bg-blue-200 rounded-full py-2 px-6 hover:bg-blue-200 shadow-btn border-4 border-yellow-100 hover:border-blue-50 text-white-100 hover:text-yellow-100'>
                                             <i className='fa fa-copy text-3xl'></i>
                                         </button>
 
