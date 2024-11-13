@@ -229,7 +229,7 @@ export default function Home() {
                                 <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-3'>
                                     <p className='font-wedges text-xl'>Smart contract address:</p>
                                     <p>
-                                      TBA
+                                      5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
                                     </p>
 
                                     <div className="">
