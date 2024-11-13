@@ -174,7 +174,7 @@ export default function Home() {
                                 </div>
 
                                 <div data-aos="fade-in" className='lg:w-1/2 w-full'>
-                                    <iframe title='wallet' src="https://jup.ag/swap/SOL-USDC" height="680" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-8/12 w-full'></iframe>
+                                    <iframe title='wallet' src="https://jup.ag/swap/SOL-5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA" height="680" className=' rounded-xl border-4 border-white-100 flex mx-auto lg:w-8/12 w-full'></iframe>
                                 </div>
                             </div>
 
