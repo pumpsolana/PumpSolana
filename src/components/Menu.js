@@ -35,7 +35,7 @@ export default function Menu() {
         </nav>
 
         <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1731511454049'>
-            <img alt="dextools" src={dextools} className'h-20 w-20'></img>
+            <img alt="dextools" src={dextools} className='h-20 w-20'></img>
         </a>
         <button className='bg-blue-200 border-4 border-yellow-50 py-2 px-5 text-white-100 hover:text-yellow-50 rounded-2xl hover:bg-blue-200 hover:border-blue-50 duration-150 text-xxl shadow-btn'>
           BUY $PUMP
