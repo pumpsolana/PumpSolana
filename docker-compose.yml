@@ -1,0 +1,7 @@
+services:
+  pumpsolana:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - WATCHPACK_POLLING=true

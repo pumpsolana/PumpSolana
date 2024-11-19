@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
-import protein_couch from '../assets/protein_couch.png';
+import pump_couch from '../assets/pump_couch.png';
 import mark from '../assets/mark.png';
 import join from '../assets/join.png';
 import top from '../assets/top2.gif';
@@ -151,7 +151,7 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* get you daily protein section */}
+            {/* get you daily pump section */}
 
             <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full xl:-translate-y-32 lg:-translate-y-28 md:-translate-y-16 -translate-y-8' />
 
@@ -229,7 +229,10 @@ export default function Home() {
                                 <div data-aos="fade-left" className='lg:col-span-1 py-4 rounded-2xl px-12 bg-white-100 border-2 border-black-100 text-center text-blue-100 space-y-3'>
                                     <p className='font-wedges text-xl'>Smart contract address:</p>
                                     <p>
-                                      5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
+                                        5oWc1d4Z6sbrH75J4jSgCC
+                                    </p>
+                                    <p>
+                                        wpgpmJwkpLQbNxiP15qGAA
                                     </p>
 
                                     <div className="">
@@ -254,14 +257,14 @@ export default function Home() {
 
                                         <div>
                                             <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-blue-50'>
-                                                <a href='/'>
+                                                <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1731985181011'>
                                                     DEXTOOLS
                                                 </a>
                                             </button>
                                         </div>
 
                                         <button className='bg-blue-200 rounded-full py-2 px-6 text-white-100 hover:text-yellow-100 duration-150 hover:scale-110 shadow-btn border-4 border-yellow-100 hover:border-blue-50'>
-                                            <a href='/'>
+                                            <a href='https://dexscreener.com/solana/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'>
                                                 DEXSCREENER
                                             </a>
                                         </button>
@@ -283,14 +286,14 @@ export default function Home() {
 
             <img src={wave} alt="Logo" className='left-0 right-0 absolute w-full -translate-y-1 rotate-180' />
 
-            {/* why protein section */}
+            {/* why pump section */}
 
             <div id='benefits' className="bg-white-200 text-white-100 why-bottom">
 
                 <div className="lg:pt-48 lg:pb-24 pt-12 pb-8 lg:px-36 px-5 container mx-auto">
                     {/* <div className='text-center lg:flex flex-row-reverse items-center justify-center mx-auto bg-blue-50 p-3 border-2 border-black-100 rounded-3xl lg:space-y-0 space-y-6'>
                         <div className='lg:w-6/12'>
-                            <img data-aos="zoom-in" src={protein} alt="protein" className='' />
+                            <img data-aos="zoom-in" src={} alt="pump" className='' />
                         </div>
 
                         <div className='lg:w-6/12 lg:space-y-8 space-y-6'>
@@ -486,7 +489,7 @@ export default function Home() {
                             </div>
 
                             <div data-aos="fade-up" className='lg:w-6/12'>
-                                <img src={protein_couch} alt="Logo" className='flex mx-auto' />
+                                <img src={pump_couch} alt="Logo" className='flex mx-auto' />
                             </div>
 
                             <div data-aos="fade-in" className='flex flex-col items-center lg:gap-y-12 gap-y-3 lg:w-3/12'>
@@ -730,7 +733,7 @@ export default function Home() {
             <img src={wave1} alt="Logo" className='left-0 right-0 absolute w-full -mt-1' />
             <img src={tick} alt="Logo" className='absolute right-0 md:mr-44 -mt-12 md:w-64 w-32' />
 
-            {/* join protein section */}
+            {/* join pump section */}
 
             <div id='join' className="">
                 <div className='lg:px-20 px-5 lg:pt-52 pt-20 lg:pb-20 pb-12 container mx-auto'>
